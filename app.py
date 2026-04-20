@@ -996,11 +996,17 @@ def render_report(report: dict) -> None:
             st.markdown(f'<div>{chips}</div>', unsafe_allow_html=True)
 
     # --- Download ---
+    # Use a monotonic per-run counter so that multiple render_report calls
+    # (e.g. from different sub-tabs, or re-renders of the same report) never
+    # collide on the widget key.
+    _n = st.session_state.get("_render_report_counter", 0) + 1
+    st.session_state["_render_report_counter"] = _n
     st.download_button(
         "⬇️ Download JSON",
         data=json.dumps(report, indent=2),
         file_name=f"vigil_report_{int(time.time())}.json",
         mime="application/json",
+        key=f"dl_json_{_n}",
     )
 
 
@@ -1009,6 +1015,12 @@ def render_report(report: dict) -> None:
 # --------------------------------------------------------------------------- #
 
 def render_corrections_ui(report: dict, report_id: str) -> None:
+    # Ensure every widget key is unique even if this function is called
+    # multiple times per run (e.g. across sub-tabs or re-renders for the
+    # same report_id).
+    _n = st.session_state.get("_corr_ui_counter", 0) + 1
+    st.session_state["_corr_ui_counter"] = _n
+    _kp = f"{report_id}_{_n}"
     """
     Corrections panel rendered below a classified report. The user can:
       - Reassign any MedDRA code by picking from its top-5 candidates (or
@@ -1054,7 +1066,7 @@ def render_corrections_ui(report: dict, report_id: str) -> None:
                 "Replace with",
                 options=range(len(option_labels)),
                 format_func=lambda i, lbl=option_labels: lbl[i],
-                key=f"corr_{report_id}_{i}",
+                key=f"corr_{_kp}_{i}",
                 label_visibility="collapsed",
             )
             if choice > 0:
@@ -1086,7 +1098,7 @@ def render_corrections_ui(report: dict, report_id: str) -> None:
         new_v = col.checkbox(
             k.replace("_", " ").title(),
             value=bool(v),
-            key=f"sev_{report_id}_{k}",
+            key=f"sev_{_kp}_{k}",
         )
         if new_v != bool(v):
             severity_corrections.append({
@@ -1101,7 +1113,7 @@ def render_corrections_ui(report: dict, report_id: str) -> None:
         "💾 Save Corrections",
         type="primary",
         disabled=not all_corrections,
-        key=f"save_{report_id}",
+        key=f"save_{_kp}",
     ):
         customer_id = st.session_state.get("customer_id")
         if not customer_id:
