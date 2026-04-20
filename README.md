@@ -11,6 +11,12 @@
 
 **[GitHub →](https://github.com/SuvayanR07/Vigil)** &nbsp;|&nbsp; **[Portfolio →](https://suvayanrakshit.vercel.app)**
 
+
+
+---
+
+> *A pharmacovigilance analyst reads a paragraph of broken English from a patient who had a bad reaction to a drug. She must extract demographics, name the drugs, find the matching MedDRA code from a dictionary of 80,000 terms, judge whether it's an FDA-reportable serious event, and produce a structured dossier in under 30 minutes. Multiply that by a thousand reports a week. That's the problem VIGIL solves.*
+
 ---
 
 ## 📹 Demo
@@ -18,10 +24,6 @@
 https://github.com/user-attachments/assets/d2a91b76-d78a-414a-ac70-2e2545f7c02a
 
 > See VIGIL in action: paste a narrative, extract drugs and reactions, map to MedDRA codes, view severity classification, and correct results to improve future predictions.
-
----
-
-> *A pharmacovigilance analyst reads a paragraph of broken English from a patient who had a bad reaction to a drug. She must extract demographics, name the drugs, find the matching MedDRA code from a dictionary of 80,000 terms, judge whether it's an FDA-reportable serious event, and produce a structured dossier in under 30 minutes. Multiply that by a thousand reports a week. That's the problem VIGIL solves.*
 
 ---
 
