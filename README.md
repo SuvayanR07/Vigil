@@ -173,8 +173,6 @@ Tested against **50 real adverse event reports** from the FDA FAERS (Adverse Eve
 
 > **Note on PT accuracy:** VIGIL uses a curated 409-term dictionary covering the most frequent FAERS reactions. The full MedDRA dictionary has 80,000+ terms. Production deployment with the complete dictionary would push PT precision above 85%. The architecture is a drop-in replacement; re-embed, re-index, done.
 
-> **Note on latency:** Measured on a MacBook Air M2, 8 GB RAM, CPU-only. A machine with an M3 Pro or an NVIDIA GPU would cut this by 40–60%.
-
 ---
 
 ## 6. Tech Stack
