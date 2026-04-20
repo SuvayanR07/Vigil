@@ -36,6 +36,12 @@
 
 ---
 
+## 📹 Video Demo
+
+**[Insert 2-3 minute demo video here]** — See VIGIL in action: paste a narrative, extract drugs and reactions, map to MedDRA codes, view severity classification, and correct results to improve future predictions.
+
+---
+
 ## 1. The Problem
 
 The FDA receives over **1 million adverse event reports** every year. Behind each report is a patient who had an unexpected reaction to a drug, a rash, a seizure, a hospitalization, or worse. Turning that patient's words into a regulatory-compliant safety record is slow, expensive, and dangerously error-prone.
