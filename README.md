@@ -13,13 +13,18 @@
 
 ---
 
+## 📹 Demo
+
+https://github.com/SuvayanR07/Vigil/assets/main/Demo/Vigil_Demo.mov
+
+> See VIGIL in action: paste a narrative, extract drugs and reactions, map to MedDRA codes, view severity classification, and correct results to improve future predictions.
+
+---
+
 > *A pharmacovigilance analyst reads a paragraph of broken English from a patient who had a bad reaction to a drug. She must extract demographics, name the drugs, find the matching MedDRA code from a dictionary of 80,000 terms, judge whether it's an FDA-reportable serious event, and produce a structured dossier in under 30 minutes. Multiply that by a thousand reports a week. That's the problem VIGIL solves.*
 
 ---
 
-
-
----
 ## Contents
 
 1. [The Problem](#1-the-problem)
