@@ -175,8 +175,6 @@ Tested against **50 real adverse event reports** from the FDA FAERS (Adverse Eve
 
 > **Note on latency:** Measured on a MacBook Air M2, 8 GB RAM, CPU-only. A machine with an M3 Pro or an NVIDIA GPU would cut this by 40–60%.
 
-[SCREENSHOT: Classify tab showing a processed report with the magenta severity banner and MedDRA reaction cards]
-
 ---
 
 ## 6. Tech Stack
