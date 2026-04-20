@@ -15,7 +15,7 @@
 
 ## 📹 Demo
 
-https://github.com/SuvayanR07/Vigil/assets/main/Demo/Vigil_Demo.mov
+
 
 > See VIGIL in action: paste a narrative, extract drugs and reactions, map to MedDRA codes, view severity classification, and correct results to improve future predictions.
 
