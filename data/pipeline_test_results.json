@@ -1,0 +1,1478 @@
+{
+  "passed": 10,
+  "total": 10,
+  "avg_latency": 8.12,
+  "max_latency": 12.57,
+  "avg_confidence": 0.915,
+  "results": [
+    {
+      "id": 1,
+      "name": "Metformin hospitalization (baseline)",
+      "status": "PASS",
+      "latency": 8.91,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "72 years",
+          "sex": "female",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Metformin",
+            "dose": "500mg twice daily",
+            "route": "oral",
+            "indication": "Type 2 Diabetes"
+          }
+        ],
+        "concomitant_drugs": [
+          {
+            "name": "Lisinopril",
+            "dose": "10mg",
+            "route": null,
+            "indication": null
+          },
+          {
+            "name": "Aspirin",
+            "dose": "81mg",
+            "route": null,
+            "indication": null
+          }
+        ],
+        "reactions_verbatim": [
+          "severe dizziness",
+          "nausea",
+          "vomiting"
+        ],
+        "onset_timeline": "3 days after starting Metformin",
+        "dechallenge": "symptoms resolved within 48 hours",
+        "outcome": "hospitalized; recovered",
+        "reporter_type": null,
+        "narrative": "A 72-year-old female patient was prescribed Metformin 500mg twice daily for Type 2 Diabetes. She was also taking Lisinopril 10mg and Aspirin 81mg. Three days after starting Metformin, she experienced severe dizziness, nausea, and vomiting. She was hospitalized for 2 days. Metformin was discontinued and symptoms resolved within 48 hours.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "severe dizziness",
+            "pt_code": "10013573",
+            "pt_name": "Dizziness",
+            "soc_name": "Nervous system disorders",
+            "confidence": 0.9411,
+            "candidates": [
+              {
+                "pt_name": "Dizziness",
+                "pt_code": "10013573",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.8911,
+                "rank": 1
+              },
+              {
+                "pt_name": "Vertigo",
+                "pt_code": "10047340",
+                "soc_name": "Ear disorders",
+                "hlt_name": "Vestibular disorders",
+                "similarity": 0.8332,
+                "rank": 2
+              },
+              {
+                "pt_name": "Vertigo",
+                "pt_code": "10047340",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.7663,
+                "rank": 3
+              },
+              {
+                "pt_name": "Syncope",
+                "pt_code": "10042772",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Syncope",
+                "similarity": 0.752,
+                "rank": 4
+              },
+              {
+                "pt_name": "Hypertensive crisis",
+                "pt_code": "10021019",
+                "soc_name": "Vascular disorders",
+                "hlt_name": "Hypertensive conditions",
+                "similarity": 0.7011,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "nausea",
+            "pt_code": "10028813",
+            "pt_name": "Nausea",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.9353,
+            "candidates": [
+              {
+                "pt_name": "Nausea",
+                "pt_code": "10028813",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Nausea",
+                "similarity": 0.8853,
+                "rank": 1
+              },
+              {
+                "pt_name": "Serum sickness",
+                "pt_code": "10040082",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7722,
+                "rank": 2
+              },
+              {
+                "pt_name": "Gastroenteritis",
+                "pt_code": "10016921",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastroenteritis",
+                "similarity": 0.7561,
+                "rank": 3
+              },
+              {
+                "pt_name": "Vomiting",
+                "pt_code": "10047700",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Vomiting",
+                "similarity": 0.7473,
+                "rank": 4
+              },
+              {
+                "pt_name": "Anxiety",
+                "pt_code": "10002855",
+                "soc_name": "Psychiatric disorders",
+                "hlt_name": "Anxiety disorders",
+                "similarity": 0.7337,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "vomiting",
+            "pt_code": "10047700",
+            "pt_name": "Vomiting",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.9476,
+            "candidates": [
+              {
+                "pt_name": "Vomiting",
+                "pt_code": "10047700",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Vomiting",
+                "similarity": 0.8476,
+                "rank": 1
+              },
+              {
+                "pt_name": "Nausea",
+                "pt_code": "10028813",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Nausea",
+                "similarity": 0.7867,
+                "rank": 2
+              },
+              {
+                "pt_name": "Gastroenteritis",
+                "pt_code": "10016921",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastroenteritis",
+                "similarity": 0.7861,
+                "rank": 3
+              },
+              {
+                "pt_name": "Serum sickness",
+                "pt_code": "10040082",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7349,
+                "rank": 4
+              },
+              {
+                "pt_name": "Malaise",
+                "pt_code": "10025482",
+                "soc_name": "General disorders",
+                "hlt_name": "General symptoms",
+                "similarity": 0.7002,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": true,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": true,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.8,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "FAERS-style: fatal event",
+      "status": "PASS",
+      "latency": 8.19,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "65 years",
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Warfarin",
+            "dose": "5mg daily",
+            "route": "oral",
+            "indication": "atrial fibrillation"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "severe headache",
+          "intracranial hemorrhage"
+        ],
+        "onset_timeline": "Four weeks after starting Warfarin",
+        "dechallenge": null,
+        "outcome": "deceased; unknown",
+        "reporter_type": null,
+        "narrative": "65-year-old male with history of hypertension was started on Warfarin 5mg daily for atrial fibrillation. Four weeks later he presented with severe headache and was found to have a massive intracranial hemorrhage. The patient died within 24 hours of admission.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "severe headache",
+            "pt_code": "10019211",
+            "pt_name": "Headache",
+            "soc_name": "Nervous system disorders",
+            "confidence": 0.8982,
+            "candidates": [
+              {
+                "pt_name": "Migraine",
+                "pt_code": "10027449",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Headaches",
+                "similarity": 0.8599,
+                "rank": 1
+              },
+              {
+                "pt_name": "Headache",
+                "pt_code": "10019211",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Headaches",
+                "similarity": 0.8182,
+                "rank": 2
+              },
+              {
+                "pt_name": "Dizziness",
+                "pt_code": "10013573",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.7325,
+                "rank": 3
+              },
+              {
+                "pt_name": "Otalgia",
+                "pt_code": "10031224",
+                "soc_name": "Ear disorders",
+                "hlt_name": "Ear symptoms",
+                "similarity": 0.7046,
+                "rank": 4
+              },
+              {
+                "pt_name": "Neck pain",
+                "pt_code": "10029370",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Neck pain",
+                "similarity": 0.7042,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "intracranial hemorrhage",
+            "pt_code": "10018985",
+            "pt_name": "Haemorrhage",
+            "soc_name": "Vascular disorders",
+            "confidence": 0.8389,
+            "candidates": [
+              {
+                "pt_name": "Post procedural haemorrhage",
+                "pt_code": "10036187",
+                "soc_name": "Injury and procedural complications",
+                "hlt_name": "Post-procedural complications",
+                "similarity": 0.7687,
+                "rank": 1
+              },
+              {
+                "pt_name": "Haemorrhage",
+                "pt_code": "10018985",
+                "soc_name": "Vascular disorders",
+                "hlt_name": "Vascular haemorrhages",
+                "similarity": 0.7589,
+                "rank": 2
+              },
+              {
+                "pt_name": "Bleeding",
+                "pt_code": "10005394",
+                "soc_name": "Vascular disorders",
+                "hlt_name": "Haemorrhages",
+                "similarity": 0.7565,
+                "rank": 3
+              },
+              {
+                "pt_name": "Disseminated intravascular coagulation",
+                "pt_code": "10013442",
+                "soc_name": "Blood disorders",
+                "hlt_name": "Coagulation disorders",
+                "similarity": 0.7337,
+                "rank": 4
+              },
+              {
+                "pt_name": "Gastrointestinal haemorrhage",
+                "pt_code": "10017955",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "GI haemorrhages",
+                "similarity": 0.7305,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": true,
+        "seriousness_criteria": {
+          "death": true,
+          "life_threatening": false,
+          "hospitalization": true,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.9,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 3,
+      "name": "FAERS-style: mild rash, non-serious",
+      "status": "PASS",
+      "latency": 5.4,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "34 years",
+          "sex": "female",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Amoxicillin",
+            "dose": "500mg",
+            "route": "oral",
+            "indication": "sinusitis"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "itchy rash"
+        ],
+        "onset_timeline": "day 4",
+        "dechallenge": "over the next two days",
+        "outcome": "no other treatment required",
+        "reporter_type": null,
+        "narrative": "Patient is a 34-year-old female who started Amoxicillin 500mg three times daily for sinusitis. On day 4 she noticed a mild itchy rash on her arms. Amoxicillin was stopped and the rash resolved over the next two days. No other treatment required.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "itchy rash",
+            "pt_code": "10037087",
+            "pt_name": "Pruritus",
+            "soc_name": "Skin disorders",
+            "confidence": 0.8972,
+            "candidates": [
+              {
+                "pt_name": "Pruritus",
+                "pt_code": "10037087",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Pruritus",
+                "similarity": 0.7972,
+                "rank": 1
+              },
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Urticaria",
+                "similarity": 0.7666,
+                "rank": 2
+              },
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7666,
+                "rank": 3
+              },
+              {
+                "pt_name": "Drug rash with eosinophilia and systemic symptoms",
+                "pt_code": "10013786",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7606,
+                "rank": 4
+              },
+              {
+                "pt_name": "Rash",
+                "pt_code": "10037844",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Rashes",
+                "similarity": 0.7335,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": false,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": false,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.85,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 4,
+      "name": "FAERS-style: chemo nausea",
+      "status": "PASS",
+      "latency": 6.47,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "58 years",
+          "sex": "female",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Cisplatin",
+            "dose": null,
+            "route": "intravenous",
+            "indication": "chemotherapy"
+          }
+        ],
+        "concomitant_drugs": [
+          {
+            "name": "Ondansetron",
+            "dose": null,
+            "route": null,
+            "indication": null
+          }
+        ],
+        "reactions_verbatim": [
+          "severe nausea",
+          "vomiting"
+        ],
+        "onset_timeline": "hours after second cycle of chemo",
+        "dechallenge": "recovered with supportive care; IV fluids in emergency room",
+        "outcome": "recovered",
+        "reporter_type": null,
+        "narrative": "A 58-year-old woman undergoing chemotherapy with Cisplatin experienced severe nausea and vomiting within hours of her second cycle. She was also receiving Ondansetron. She recovered after supportive care but required IV fluids in the emergency room.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "severe nausea",
+            "pt_code": "10028813",
+            "pt_name": "Nausea",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.9222,
+            "candidates": [
+              {
+                "pt_name": "Nausea",
+                "pt_code": "10028813",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Nausea",
+                "similarity": 0.8722,
+                "rank": 1
+              },
+              {
+                "pt_name": "Gastroenteritis",
+                "pt_code": "10016921",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastroenteritis",
+                "similarity": 0.7823,
+                "rank": 2
+              },
+              {
+                "pt_name": "Serum sickness",
+                "pt_code": "10040082",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7613,
+                "rank": 3
+              },
+              {
+                "pt_name": "Vomiting",
+                "pt_code": "10047700",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Vomiting",
+                "similarity": 0.7514,
+                "rank": 4
+              },
+              {
+                "pt_name": "Abdominal pain",
+                "pt_code": "10000081",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Abdominal symptoms",
+                "similarity": 0.713,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "vomiting",
+            "pt_code": "10047700",
+            "pt_name": "Vomiting",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.9476,
+            "candidates": [
+              {
+                "pt_name": "Vomiting",
+                "pt_code": "10047700",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Vomiting",
+                "similarity": 0.8476,
+                "rank": 1
+              },
+              {
+                "pt_name": "Nausea",
+                "pt_code": "10028813",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Nausea",
+                "similarity": 0.7867,
+                "rank": 2
+              },
+              {
+                "pt_name": "Gastroenteritis",
+                "pt_code": "10016921",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastroenteritis",
+                "similarity": 0.7861,
+                "rank": 3
+              },
+              {
+                "pt_name": "Serum sickness",
+                "pt_code": "10040082",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7349,
+                "rank": 4
+              },
+              {
+                "pt_name": "Malaise",
+                "pt_code": "10025482",
+                "soc_name": "General disorders",
+                "hlt_name": "General symptoms",
+                "similarity": 0.7002,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": true,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": true,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.8,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 5,
+      "name": "FAERS-style: anaphylaxis life-threatening",
+      "status": "PASS",
+      "latency": 9.86,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "42 years",
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Ceftriaxone",
+            "dose": "1g",
+            "route": "intravenous",
+            "indication": "pneumonia"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "hives",
+          "difficulty breathing",
+          "hypotension"
+        ],
+        "onset_timeline": "10 minutes |",
+        "dechallenge": null,
+        "outcome": "ICU for 24 hours",
+        "reporter_type": null,
+        "narrative": "A 42-year-old male received his first dose of intravenous Ceftriaxone 1g for pneumonia. Within 10 minutes he developed hives, difficulty breathing, and hypotension. This was life-threatening anaphylaxis. He was resuscitated with epinephrine and admitted to the ICU for 24 hours.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "hives",
+            "pt_code": "10046735",
+            "pt_name": "Urticaria",
+            "soc_name": "Skin disorders",
+            "confidence": 0.9007,
+            "candidates": [
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Urticaria",
+                "similarity": 0.8007,
+                "rank": 1
+              },
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.8007,
+                "rank": 2
+              },
+              {
+                "pt_name": "Hypersensitivity",
+                "pt_code": "10020751",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.6652,
+                "rank": 3
+              },
+              {
+                "pt_name": "Anaphylaxis",
+                "pt_code": "10002198",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.6585,
+                "rank": 4
+              },
+              {
+                "pt_name": "Pruritus",
+                "pt_code": "10037087",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Pruritus",
+                "similarity": 0.6555,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "difficulty breathing",
+            "pt_code": "10013968",
+            "pt_name": "Dyspnoea",
+            "soc_name": "Respiratory disorders",
+            "confidence": 0.892,
+            "candidates": [
+              {
+                "pt_name": "Respiratory failure",
+                "pt_code": "10038695",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Respiratory failures",
+                "similarity": 0.8323,
+                "rank": 1
+              },
+              {
+                "pt_name": "Dyspnoea",
+                "pt_code": "10013968",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Dyspnoea",
+                "similarity": 0.812,
+                "rank": 2
+              },
+              {
+                "pt_name": "Apnea",
+                "pt_code": "10002599",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Breathing pauses",
+                "similarity": 0.7972,
+                "rank": 3
+              },
+              {
+                "pt_name": "Sleep apnea",
+                "pt_code": "10041350",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Sleep disorders",
+                "similarity": 0.7775,
+                "rank": 4
+              },
+              {
+                "pt_name": "Bronchospasm",
+                "pt_code": "10006482",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Bronchospasm",
+                "similarity": 0.757,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "hypotension",
+            "pt_code": "10021097",
+            "pt_name": "Hypotension",
+            "soc_name": "Vascular disorders",
+            "confidence": 0.9407,
+            "candidates": [
+              {
+                "pt_name": "Hypotension",
+                "pt_code": "10021097",
+                "soc_name": "Vascular disorders",
+                "hlt_name": "Vascular hypotensive disorders",
+                "similarity": 0.8407,
+                "rank": 1
+              },
+              {
+                "pt_name": "Hypocalcaemia",
+                "pt_code": "10020980",
+                "soc_name": "Metabolic disorders",
+                "hlt_name": "Mineral disorders",
+                "similarity": 0.7565,
+                "rank": 2
+              },
+              {
+                "pt_name": "Hyponatraemia",
+                "pt_code": "10021036",
+                "soc_name": "Metabolic disorders",
+                "hlt_name": "Electrolyte disorders",
+                "similarity": 0.7433,
+                "rank": 3
+              },
+              {
+                "pt_name": "Hypophosphatemia",
+                "pt_code": "10021034",
+                "soc_name": "Metabolic disorders",
+                "hlt_name": "Mineral disorders",
+                "similarity": 0.7234,
+                "rank": 4
+              },
+              {
+                "pt_name": "Hypernatraemia",
+                "pt_code": "10020617",
+                "soc_name": "Metabolic disorders",
+                "hlt_name": "Electrolyte disorders",
+                "similarity": 0.7144,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": true,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": true,
+          "hospitalization": true,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.9,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 6,
+      "name": "Synthetic: multiple drugs, no serious event",
+      "status": "PASS",
+      "latency": 8.8,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "50 years",
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Atorvastatin",
+            "dose": "20mg",
+            "route": "oral",
+            "indication": "hypertension"
+          }
+        ],
+        "concomitant_drugs": [
+          {
+            "name": "Metoprolol",
+            "dose": "50mg twice daily",
+            "route": null,
+            "indication": null
+          }
+        ],
+        "reactions_verbatim": [
+          "muscle aches",
+          "headache"
+        ],
+        "onset_timeline": "2 months ago",
+        "dechallenge": "symptoms tolerable; no activity affected",
+        "outcome": null,
+        "reporter_type": null,
+        "narrative": "A 50-year-old man on Atorvastatin 20mg, Metoprolol 50mg twice daily, and Aspirin 81mg reports mild muscle aches and occasional headache since starting Atorvastatin two months ago. Symptoms are tolerable and have not affected his daily activities.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "muscle aches",
+            "pt_code": "10028411",
+            "pt_name": "Myalgia",
+            "soc_name": "Musculoskeletal disorders",
+            "confidence": 0.9537,
+            "candidates": [
+              {
+                "pt_name": "Myalgia",
+                "pt_code": "10028411",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Muscle pain",
+                "similarity": 0.8537,
+                "rank": 1
+              },
+              {
+                "pt_name": "Shoulder pain",
+                "pt_code": "10040954",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Shoulder pain",
+                "similarity": 0.8287,
+                "rank": 2
+              },
+              {
+                "pt_name": "Muscle cramp",
+                "pt_code": "10028364",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Muscle symptoms",
+                "similarity": 0.8268,
+                "rank": 3
+              },
+              {
+                "pt_name": "Fibromyalgia",
+                "pt_code": "10016763",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Musculoskeletal pain",
+                "similarity": 0.7894,
+                "rank": 4
+              },
+              {
+                "pt_name": "Hip pain",
+                "pt_code": "10020718",
+                "soc_name": "Musculoskeletal disorders",
+                "hlt_name": "Hip pain",
+                "similarity": 0.7875,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "headache",
+            "pt_code": "10019211",
+            "pt_name": "Headache",
+            "soc_name": "Nervous system disorders",
+            "confidence": 0.9686,
+            "candidates": [
+              {
+                "pt_name": "Headache",
+                "pt_code": "10019211",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Headaches",
+                "similarity": 0.8686,
+                "rank": 1
+              },
+              {
+                "pt_name": "Migraine",
+                "pt_code": "10027449",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Headaches",
+                "similarity": 0.8316,
+                "rank": 2
+              },
+              {
+                "pt_name": "Dizziness",
+                "pt_code": "10013573",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.7374,
+                "rank": 3
+              },
+              {
+                "pt_name": "Ear pain",
+                "pt_code": "10014020",
+                "soc_name": "Ear disorders",
+                "hlt_name": "Ear symptoms",
+                "similarity": 0.7142,
+                "rank": 4
+              },
+              {
+                "pt_name": "Otalgia",
+                "pt_code": "10031224",
+                "soc_name": "Ear disorders",
+                "hlt_name": "Ear symptoms",
+                "similarity": 0.7142,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": false,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": false,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.85,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 7,
+      "name": "Synthetic: messy patient language",
+      "status": "PASS",
+      "latency": 8.24,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": null,
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "lisinopril",
+            "dose": null,
+            "route": "oral",
+            "indication": "hypertension"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "coughing nonstop",
+          "scratchy throat",
+          "dizziness"
+        ],
+        "onset_timeline": "2 weeks ago |",
+        "dechallenge": null,
+        "outcome": null,
+        "reporter_type": null,
+        "narrative": "i took this new blood pressure med lisinopril like 2 weeks ago and ever since i been coughing nonstop and my throat feels scratchy. also feel kinda dizzy when i stand up fast. doc said switch meds.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "coughing nonstop",
+            "pt_code": "10011224",
+            "pt_name": "Cough",
+            "soc_name": "Respiratory disorders",
+            "confidence": 0.937,
+            "candidates": [
+              {
+                "pt_name": "Cough",
+                "pt_code": "10011224",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Coughing",
+                "similarity": 0.837,
+                "rank": 1
+              },
+              {
+                "pt_name": "Bronchospasm",
+                "pt_code": "10006482",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Bronchospasm",
+                "similarity": 0.7625,
+                "rank": 2
+              },
+              {
+                "pt_name": "Nasopharyngitis",
+                "pt_code": "10028810",
+                "soc_name": "Infections",
+                "hlt_name": "Upper respiratory infections",
+                "similarity": 0.7245,
+                "rank": 3
+              },
+              {
+                "pt_name": "Bronchitis",
+                "pt_code": "10006501",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Respiratory infections",
+                "similarity": 0.7218,
+                "rank": 4
+              },
+              {
+                "pt_name": "Pneumonia",
+                "pt_code": "10035664",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Respiratory infections",
+                "similarity": 0.7021,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "scratchy throat",
+            "pt_code": "10034735",
+            "pt_name": "Pharyngitis",
+            "soc_name": "Infections",
+            "confidence": 0.8234,
+            "candidates": [
+              {
+                "pt_name": "Dysphagia",
+                "pt_code": "10013950",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Swallowing disorders",
+                "similarity": 0.7472,
+                "rank": 1
+              },
+              {
+                "pt_name": "Pharyngitis",
+                "pt_code": "10034735",
+                "soc_name": "Infections",
+                "hlt_name": "Upper respiratory infections",
+                "similarity": 0.7434,
+                "rank": 2
+              },
+              {
+                "pt_name": "Oesophagitis",
+                "pt_code": "10031227",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Oesophageal conditions",
+                "similarity": 0.714,
+                "rank": 3
+              },
+              {
+                "pt_name": "Tardive dyskinesia",
+                "pt_code": "10043372",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Movement disorders",
+                "similarity": 0.7022,
+                "rank": 4
+              },
+              {
+                "pt_name": "Glossitis",
+                "pt_code": "10018851",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Oral conditions",
+                "similarity": 0.696,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "dizziness",
+            "pt_code": "10013573",
+            "pt_name": "Dizziness",
+            "soc_name": "Nervous system disorders",
+            "confidence": 0.959,
+            "candidates": [
+              {
+                "pt_name": "Dizziness",
+                "pt_code": "10013573",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.909,
+                "rank": 1
+              },
+              {
+                "pt_name": "Vertigo",
+                "pt_code": "10047340",
+                "soc_name": "Ear disorders",
+                "hlt_name": "Vestibular disorders",
+                "similarity": 0.8518,
+                "rank": 2
+              },
+              {
+                "pt_name": "Vertigo",
+                "pt_code": "10047340",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Vertigo",
+                "similarity": 0.783,
+                "rank": 3
+              },
+              {
+                "pt_name": "Syncope",
+                "pt_code": "10042772",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Syncope",
+                "similarity": 0.7573,
+                "rank": 4
+              },
+              {
+                "pt_name": "Blurred vision",
+                "pt_code": "10005886",
+                "soc_name": "Eye disorders",
+                "hlt_name": "Visual disorders",
+                "similarity": 0.7142,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": false,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": false,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.85,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 8,
+      "name": "Synthetic: very short report",
+      "status": "PASS",
+      "latency": 6.27,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": null,
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Ibuprofen",
+            "dose": null,
+            "route": "oral",
+            "indication": "pain relief"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "skin rash"
+        ],
+        "onset_timeline": null,
+        "dechallenge": null,
+        "outcome": null,
+        "reporter_type": null,
+        "narrative": "Patient took Ibuprofen and developed a skin rash.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "skin rash",
+            "pt_code": "10046735",
+            "pt_name": "Urticaria",
+            "soc_name": "Skin disorders",
+            "confidence": 0.8638,
+            "candidates": [
+              {
+                "pt_name": "Drug rash with eosinophilia and systemic symptoms",
+                "pt_code": "10013786",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7889,
+                "rank": 1
+              },
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Urticaria",
+                "similarity": 0.7838,
+                "rank": 2
+              },
+              {
+                "pt_name": "Urticaria",
+                "pt_code": "10046735",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7838,
+                "rank": 3
+              },
+              {
+                "pt_name": "Rash",
+                "pt_code": "10037844",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Rashes",
+                "similarity": 0.7772,
+                "rank": 4
+              },
+              {
+                "pt_name": "Erythema",
+                "pt_code": "10015150",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Erythema",
+                "similarity": 0.7659,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": false,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": false,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.85,
+        "flags_for_review": []
+      }
+    },
+    {
+      "id": 9,
+      "name": "Synthetic: negated hospitalization",
+      "status": "PASS",
+      "latency": 6.47,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "28 years",
+          "sex": "female",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Sertraline",
+            "dose": "50mg",
+            "route": "oral",
+            "indication": "depression"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "insomnia",
+          "nausea"
+        ],
+        "onset_timeline": "first week",
+        "dechallenge": "symptoms resolved after dose reduction",
+        "outcome": "no hospitalization; no intervention",
+        "reporter_type": null,
+        "narrative": "A 28-year-old female started Sertraline 50mg for depression. She experienced mild insomnia and nausea during the first week. She was NOT hospitalized and did not require any intervention. Symptoms resolved after dose reduction.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "insomnia",
+            "pt_code": "10022437",
+            "pt_name": "Insomnia",
+            "soc_name": "Nervous system disorders",
+            "confidence": 0.9179,
+            "candidates": [
+              {
+                "pt_name": "Insomnia",
+                "pt_code": "10022437",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Sleep disorders",
+                "similarity": 0.8679,
+                "rank": 1
+              },
+              {
+                "pt_name": "Somnolence",
+                "pt_code": "10041349",
+                "soc_name": "Nervous system disorders",
+                "hlt_name": "Sleep disorders",
+                "similarity": 0.7656,
+                "rank": 2
+              },
+              {
+                "pt_name": "Sleep apnea",
+                "pt_code": "10041350",
+                "soc_name": "Respiratory disorders",
+                "hlt_name": "Sleep disorders",
+                "similarity": 0.7107,
+                "rank": 3
+              },
+              {
+                "pt_name": "Fatigue",
+                "pt_code": "10016256",
+                "soc_name": "General disorders",
+                "hlt_name": "General symptoms",
+                "similarity": 0.7079,
+                "rank": 4
+              },
+              {
+                "pt_name": "Anxiety",
+                "pt_code": "10002855",
+                "soc_name": "Psychiatric disorders",
+                "hlt_name": "Anxiety disorders",
+                "similarity": 0.6999,
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "verbatim_term": "nausea",
+            "pt_code": "10028813",
+            "pt_name": "Nausea",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.9353,
+            "candidates": [
+              {
+                "pt_name": "Nausea",
+                "pt_code": "10028813",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Nausea",
+                "similarity": 0.8853,
+                "rank": 1
+              },
+              {
+                "pt_name": "Serum sickness",
+                "pt_code": "10040082",
+                "soc_name": "Immune disorders",
+                "hlt_name": "Allergic reactions",
+                "similarity": 0.7722,
+                "rank": 2
+              },
+              {
+                "pt_name": "Gastroenteritis",
+                "pt_code": "10016921",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastroenteritis",
+                "similarity": 0.7561,
+                "rank": 3
+              },
+              {
+                "pt_name": "Vomiting",
+                "pt_code": "10047700",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Vomiting",
+                "similarity": 0.7473,
+                "rank": 4
+              },
+              {
+                "pt_name": "Anxiety",
+                "pt_code": "10002855",
+                "soc_name": "Psychiatric disorders",
+                "hlt_name": "Anxiety disorders",
+                "similarity": 0.7337,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": false,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": false,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": false
+        },
+        "severity_confidence": 0.85,
+        "flags_for_review": [
+          "Ambiguous seriousness language (negated context) \u2014 human review advised."
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Synthetic: surgery required",
+      "status": "PASS",
+      "latency": 12.57,
+      "failures": [],
+      "report": {
+        "patient": {
+          "age": "60 years",
+          "sex": "male",
+          "weight": null
+        },
+        "suspect_drugs": [
+          {
+            "name": "Prednisone",
+            "dose": "10mg daily",
+            "route": "oral",
+            "indication": "rheumatoid arthritis"
+          }
+        ],
+        "concomitant_drugs": [],
+        "reactions_verbatim": [
+          "perforated gastric ulcer"
+        ],
+        "onset_timeline": null,
+        "dechallenge": "post-operative after a 5-day hospital stay",
+        "outcome": "recovered; hospitalization",
+        "reporter_type": null,
+        "narrative": "A 60-year-old male on long-term Prednisone 10mg daily for rheumatoid arthritis developed a perforated gastric ulcer requiring emergency surgery. He recovered post-operatively after a 5-day hospital stay.",
+        "narrative_truncated": false,
+        "coded_reactions": [
+          {
+            "verbatim_term": "perforated gastric ulcer",
+            "pt_code": "10017938",
+            "pt_name": "Gastric ulcer",
+            "soc_name": "Gastrointestinal disorders",
+            "confidence": 0.8821,
+            "candidates": [
+              {
+                "pt_name": "Duodenal ulcer",
+                "pt_code": "10013872",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Ulcerative conditions",
+                "similarity": 0.8024,
+                "rank": 1
+              },
+              {
+                "pt_name": "Gastric ulcer",
+                "pt_code": "10017938",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Ulcerative conditions",
+                "similarity": 0.8021,
+                "rank": 2
+              },
+              {
+                "pt_name": "Peptic ulcer",
+                "pt_code": "10034620",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Ulcerative conditions",
+                "similarity": 0.7672,
+                "rank": 3
+              },
+              {
+                "pt_name": "Skin ulceration",
+                "pt_code": "10040829",
+                "soc_name": "Skin disorders",
+                "hlt_name": "Skin loss",
+                "similarity": 0.7355,
+                "rank": 4
+              },
+              {
+                "pt_name": "Gastritis",
+                "pt_code": "10017973",
+                "soc_name": "Gastrointestinal disorders",
+                "hlt_name": "Gastric conditions",
+                "similarity": 0.7354,
+                "rank": 5
+              }
+            ]
+          }
+        ],
+        "is_serious": true,
+        "seriousness_criteria": {
+          "death": false,
+          "life_threatening": false,
+          "hospitalization": true,
+          "disability": false,
+          "congenital_anomaly": false,
+          "required_intervention": true
+        },
+        "severity_confidence": 0.9,
+        "flags_for_review": []
+      }
+    }
+  ]
+}

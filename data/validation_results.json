@@ -1,0 +1,1028 @@
+{
+  "metrics": {
+    "n_reports": 50,
+    "extraction_rate": 1.0,
+    "total_predicted_pts": 179,
+    "total_ground_truth_pts": 180,
+    "pt_top1_precision": 0.6425,
+    "pt_recall": 0.5833,
+    "pt_f1": 0.6115,
+    "soc_accuracy": 1.0,
+    "soc_checked": 100,
+    "severity_accuracy": 1.0,
+    "faers_serious_fraction": 1.0,
+    "avg_latency_seconds": 18.38,
+    "max_latency_seconds": 67.85
+  },
+  "per_report": [
+    {
+      "report_id": "5801206-7",
+      "narrative_preview": "Patient: 26 801 male. Drugs: DURAGESIC-100 (role=1, dose=, indication=DRUG ABUSE). Reactions: DRUG ADMINISTRATION ERROR,",
+      "ground_truth_pts": [
+        "DRUG ADMINISTRATION ERROR",
+        "OVERDOSE"
+      ],
+      "predicted_pts": [
+        "Medication error",
+        "Overdose"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 6.1
+    },
+    {
+      "report_id": "10003300",
+      "narrative_preview": "Patient: 77 801 female. Drugs: BONIVA (role=1, dose=3 MG, 1 IN 3 M, INTRAVENOUS (NOT OTHERWISE SPECIFIED), indication=OS",
+      "ground_truth_pts": [
+        "Vomiting",
+        "Diarrhoea",
+        "Arthralgia",
+        "Headache"
+      ],
+      "predicted_pts": [
+        "Vomiting",
+        "Diarrhoea",
+        "Arthralgia",
+        "Headache"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 4,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 8.91
+    },
+    {
+      "report_id": "10003301",
+      "narrative_preview": "Patient: unknown  female. Drugs: IBUPROFEN (role=1, dose=, indication=PRODUCT USED FOR UNKNOWN INDICATION). Reactions: D",
+      "ground_truth_pts": [
+        "Dyspepsia",
+        "Renal impairment"
+      ],
+      "predicted_pts": [
+        "Dyspepsia",
+        "Renal impairment"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 4.94
+    },
+    {
+      "report_id": "10003311",
+      "narrative_preview": "Patient: 76 801 female. Drugs: LETAIRIS (role=1, dose=10 MG, UNK, indication=PULMONARY HYPERTENSION); LETAIRIS (role=1, ",
+      "ground_truth_pts": [
+        "Oedema peripheral",
+        "Fluid retention"
+      ],
+      "predicted_pts": [
+        "Oedema peripheral",
+        "Edema"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 9.23
+    },
+    {
+      "report_id": "10003312",
+      "narrative_preview": "Patient: 43 801 female. Drugs: ILARIS (role=1, dose=90 MG, EVERY 8 WEEKS, indication=CRYOPYRIN ASSOCIATED PERIODIC SYNDR",
+      "ground_truth_pts": [
+        "Pneumonia",
+        "Drug ineffective"
+      ],
+      "predicted_pts": [
+        "Pneumonia",
+        "Drug ineffective"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 6.33
+    },
+    {
+      "report_id": "10003315",
+      "narrative_preview": "Patient: unknown  male. Drugs: RANOLAZINE (role=1, dose=500 MG, UNK, indication=ANGINA PECTORIS). Reactions: Death. Outc",
+      "ground_truth_pts": [
+        "Death"
+      ],
+      "predicted_pts": [
+        "Death"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 4.03
+    },
+    {
+      "report_id": "10003317",
+      "narrative_preview": "Patient: 46 801 male. Drugs: BENLYSTA (role=1, dose=10MGK MONTHLY, indication=SYSTEMIC LUPUS ERYTHEMATOSUS); PLAQUENIL (",
+      "ground_truth_pts": [
+        "Angioedema",
+        "Laryngeal oedema",
+        "Face oedema"
+      ],
+      "predicted_pts": [
+        "Angioedema",
+        "Face oedema",
+        "Face oedema"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 11.65
+    },
+    {
+      "report_id": "10003318",
+      "narrative_preview": "Patient: 59 801 female. Drugs: BELIMUMAB (role=1, dose=200MGML WEEKLY, indication=SYSTEMIC LUPUS ERYTHEMATOSUS); AZATHIO",
+      "ground_truth_pts": [
+        "Tuberculosis of central nervous system"
+      ],
+      "predicted_pts": [
+        "Nasopharyngitis"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 12.87
+    },
+    {
+      "report_id": "10003319",
+      "narrative_preview": "Patient: 46 801 female. Drugs: BENLYSTA (role=1, dose=, indication=SYSTEMIC LUPUS ERYTHEMATOSUS); PLAQUENIL (role=2, dos",
+      "ground_truth_pts": [
+        "Cholecystectomy",
+        "Nephrolithiasis",
+        "Biliary tract disorder",
+        "Malaise"
+      ],
+      "predicted_pts": [
+        "Intrahepatic cholestasis",
+        "Pyelonephritis",
+        "Cholestasis",
+        "Malaise"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.34
+    },
+    {
+      "report_id": "10003321",
+      "narrative_preview": "Patient: 71 801 male. Drugs: ACETAMINOPHEN. (role=2, dose=, indication=); OFATUMUMAB (role=1, dose=300 MG, QD, indicatio",
+      "ground_truth_pts": [
+        "Adenoviral haemorrhagic cystitis",
+        "Pyrexia"
+      ],
+      "predicted_pts": [
+        "Cystitis",
+        "Pyrexia"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 20.08
+    },
+    {
+      "report_id": "10003325",
+      "narrative_preview": "Patient: 68 801 female. Drugs: LETAIRIS (role=1, dose=5 MG, UNK, indication=PRODUCT USED FOR UNKNOWN INDICATION). Reacti",
+      "ground_truth_pts": [
+        "Swelling"
+      ],
+      "predicted_pts": [
+        "Edema"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.0
+    },
+    {
+      "report_id": "10003326",
+      "narrative_preview": "Patient: 29 801 female. Drugs: CEFTRIAXONE (role=1, dose=, indication=LISTERIOSIS); METRONIDAZOLE (role=1, dose=, indica",
+      "ground_truth_pts": [
+        "Meconium stain",
+        "Amniotic cavity infection",
+        "Maternal exposure during pregnancy"
+      ],
+      "predicted_pts": [
+        "Purpura",
+        "Infection",
+        "Adverse event"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 21.66
+    },
+    {
+      "report_id": "10003327",
+      "narrative_preview": "Patient: 53 801 male. Drugs: PREDNISONE (role=1, dose=50-60 MG, UNK, indication=IMMUNOSUPPRESSION); DEXAMETHASONE (role=",
+      "ground_truth_pts": [
+        "Respiratory failure",
+        "Listeriosis",
+        "Pyrexia",
+        "Headache",
+        "Vomiting",
+        "Mental status changes",
+        "Meningitis",
+        "Pneumonia staphylococcal"
+      ],
+      "predicted_pts": [
+        "Respiratory failure",
+        "Stomatitis",
+        "Pyrexia",
+        "Headache",
+        "Vomiting",
+        "Personality change",
+        "Meningitis",
+        "Pneumonia"
+      ],
+      "pt_precision_hits": 6,
+      "pt_recall_hits": 6,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 29.64
+    },
+    {
+      "report_id": "10003328",
+      "narrative_preview": "Patient: 55 801 female. Drugs: PACLITAXEL (role=1, dose=80 MG/M2, WEEKLY, indication=METASTASES TO BREAST); DOCETAXEL (r",
+      "ground_truth_pts": [
+        "Type IV hypersensitivity reaction",
+        "Skin toxicity",
+        "Palmar-plantar erythrodysaesthesia syndrome",
+        "Nail toxicity",
+        "Arthralgia",
+        "Myalgia",
+        "Asthenia",
+        "Diarrhoea",
+        "Neuropathy peripheral"
+      ],
+      "predicted_pts": [
+        "Hypersensitivity",
+        "Skin discolouration",
+        "Neuropathy peripheral",
+        "Toxic epidermal necrolysis",
+        "Arthralgia",
+        "Myalgia",
+        "Asthenia",
+        "Diarrhoea",
+        "Neuropathy peripheral"
+      ],
+      "pt_precision_hits": 7,
+      "pt_recall_hits": 6,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 42.63
+    },
+    {
+      "report_id": "10003329",
+      "narrative_preview": "Patient: 79 801 female. Drugs: PARACETAMOLO (role=2, dose=650 MG, indication=PAIN); BIBW 2992 (role=1, dose=30 MG, indic",
+      "ground_truth_pts": [
+        "Diarrhoea",
+        "Abdominal pain",
+        "Asthenia",
+        "Diarrhoea",
+        "Weight decreased",
+        "Abdominal pain",
+        "Blood creatinine increased",
+        "C-reactive protein increased",
+        "Dysuria",
+        "Pyrexia",
+        "Blood creatinine increased",
+        "C-reactive protein increased",
+        "Pleural effusion"
+      ],
+      "predicted_pts": [
+        "Diarrhoea",
+        "Abdominal pain",
+        "Asthenia",
+        "Creatinine increased",
+        "C-reactive protein increased",
+        "Dysarthria",
+        "Pyrexia",
+        "Pleural effusion",
+        "Weight decreased",
+        "Diarrhoea",
+        "Abdominal pain"
+      ],
+      "pt_precision_hits": 10,
+      "pt_recall_hits": 12,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 67.85
+    },
+    {
+      "report_id": "10003331",
+      "narrative_preview": "Patient: 38 801 female. Drugs: MIRENA (role=1, dose=20 MCG/24HR, CONT, indication=); CARBAMAZEPINE (role=2, dose=300MG D",
+      "ground_truth_pts": [
+        "Chemical poisoning",
+        "Neck pain",
+        "Back pain",
+        "Paraesthesia"
+      ],
+      "predicted_pts": [
+        "Overdose",
+        "Neck pain",
+        "Back pain",
+        "Paraesthesia"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 3,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.15
+    },
+    {
+      "report_id": "10003335",
+      "narrative_preview": "Patient: 62 801 female. Drugs: LETAIRIS (role=1, dose=5 MG, UNK, indication=PULMONARY HYPERTENSION); LETAIRIS (role=1, d",
+      "ground_truth_pts": [
+        "Localised oedema",
+        "Oedema peripheral",
+        "Fluid retention",
+        "Nasal congestion"
+      ],
+      "predicted_pts": [
+        "Oedema peripheral",
+        "Oedema peripheral",
+        "Seroma",
+        "Nasopharyngitis"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 19.68
+    },
+    {
+      "report_id": "10003336",
+      "narrative_preview": "Patient: unknown  male. Drugs: JANUMET (role=1, dose=50/1000 MG, indication=TYPE 2 DIABETES MELLITUS); JANUVIA (role=1, ",
+      "ground_truth_pts": [
+        "Metastases to spine",
+        "Anxiety",
+        "Renal cyst",
+        "Metastases to thorax",
+        "Metastases to retroperitoneum",
+        "Emotional disorder",
+        "Pancreatic carcinoma metastatic",
+        "Metastases to liver",
+        "Metastases to lung",
+        "Emotional distress",
+        "Lymphadenopathy",
+        "Prostate cancer",
+        "Peripheral venous disease"
+      ],
+      "predicted_pts": [
+        "Sciatica",
+        "Anxiety",
+        "Cystitis",
+        "Unstable angina",
+        "Multiple myeloma",
+        "Anxiety",
+        "Pancreatitis",
+        "Cirrhosis hepatic",
+        "Pneumonitis",
+        "Anxiety",
+        "Lymphadenopathy",
+        "Polyuria",
+        "Vascular insufficiency peripheral"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 51.01
+    },
+    {
+      "report_id": "10003338",
+      "narrative_preview": "Patient: 34 801 female. Drugs: KLACID (role=1, dose=, indication=TONSILLITIS); CLAVULIN (role=1, dose=DAILY DOSE: 2 GRAM",
+      "ground_truth_pts": [
+        "Swollen tongue",
+        "Pruritus",
+        "Rash generalised"
+      ],
+      "predicted_pts": [
+        "Glossitis",
+        "Pruritus",
+        "Rash"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 17.95
+    },
+    {
+      "report_id": "10003340",
+      "narrative_preview": "Patient: 22 801 female. Drugs: PREDNISONE (role=1, dose=50-60 MG, UNK, indication=IMMUNOSUPPRESSION); METHYLPREDNISOLONE",
+      "ground_truth_pts": [
+        "Listeriosis",
+        "Pyrexia",
+        "Diarrhoea",
+        "Meningitis"
+      ],
+      "predicted_pts": [
+        "Infection",
+        "Pyrexia",
+        "Diarrhoea",
+        "Meningitis"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 3,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 21.59
+    },
+    {
+      "report_id": "10003342",
+      "narrative_preview": "Patient: unknown  male. Drugs: TASIGNA (role=1, dose=150 MG, QID, indication=LEUKAEMIA). Reactions: Overdose, General ph",
+      "ground_truth_pts": [
+        "Overdose",
+        "General physical health deterioration",
+        "Malaise",
+        "Drug ineffective"
+      ],
+      "predicted_pts": [
+        "Overdose",
+        "Malaise",
+        "Malaise",
+        "Drug ineffective"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 3,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 10.05
+    },
+    {
+      "report_id": "10003345",
+      "narrative_preview": "Patient: 88 801 female. Drugs: CITALOPRAM (role=1, dose=, indication=); PREVISCAN (role=1, dose=, indication=); DAFALGAN",
+      "ground_truth_pts": [
+        "Haematoma",
+        "Thrombocytopenia",
+        "International normalised ratio increased"
+      ],
+      "predicted_pts": [
+        "Haematoma",
+        "Thrombocytopenia",
+        "International normalised ratio increased"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 3,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.58
+    },
+    {
+      "report_id": "10003347",
+      "narrative_preview": "Patient: 29 801 female. Drugs: MIRENA (role=1, dose=20 MCG/24HR, CONT, indication=CONTRACEPTION); MIRENA (role=1, dose=,",
+      "ground_truth_pts": [
+        "Device dislocation"
+      ],
+      "predicted_pts": [
+        "Device failure"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 11.05
+    },
+    {
+      "report_id": "10003349",
+      "narrative_preview": "Patient: unknown  female. Drugs: MORPHINE SULFATE EXTENDED-RELEASE TABLETS (RHODES 74-862) (role=1, dose=(60 MG X 3),180",
+      "ground_truth_pts": [
+        "Cerebrovascular accident",
+        "Blood pressure increased",
+        "Pain"
+      ],
+      "predicted_pts": [
+        "Stroke",
+        "Blood pressure increased",
+        "Pain"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.12
+    },
+    {
+      "report_id": "10003351",
+      "narrative_preview": "Patient: 46 801 female. Drugs: MIRTAZAPINE (UNKNOWN) (role=1, dose=30 MG, UNKNOWN, indication=DEPRESSION); LANSOPRAZOLE ",
+      "ground_truth_pts": [
+        "Aggression",
+        "Violence-related symptom",
+        "Anger",
+        "Blepharospasm",
+        "Suicidal ideation"
+      ],
+      "predicted_pts": [
+        "Irritability",
+        "Irritability",
+        "Irritability",
+        "Blepharitis",
+        "Suicidal ideation"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 26.04
+    },
+    {
+      "report_id": "10003354",
+      "narrative_preview": "Patient: 52 801 female. Drugs: LETAIRIS (role=1, dose=10 MG, UNK, indication=PULMONARY ARTERIAL HYPERTENSION). Reactions",
+      "ground_truth_pts": [
+        "Haemoglobin decreased"
+      ],
+      "predicted_pts": [
+        "Haemoglobin decreased"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 5.84
+    },
+    {
+      "report_id": "10003357",
+      "narrative_preview": "Patient: 10 801 male. Drugs: TACROLIMUS (WATSON LABORATORIES) (role=1, dose=0.04 MG/KG, DAILY, indication=HEART TRANSPLA",
+      "ground_truth_pts": [
+        "Posterior reversible encephalopathy syndrome",
+        "Cerebral haemorrhage",
+        "Subarachnoid haemorrhage"
+      ],
+      "predicted_pts": [
+        "Hepatic encephalopathy",
+        "Haemorrhage",
+        "Haemorrhage"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 21.98
+    },
+    {
+      "report_id": "10003359",
+      "narrative_preview": "Patient: 41 801 male. Drugs: DOXYCYCLINE (role=2, dose=100 MG, DAILY, indication=PRODUCT USED FOR UNKNOWN INDICATION); A",
+      "ground_truth_pts": [
+        "Erection increased"
+      ],
+      "predicted_pts": [
+        "Priapism"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.29
+    },
+    {
+      "report_id": "10003361",
+      "narrative_preview": "Patient: 65 801 male. Drugs: CITALOPRAM (UNKNOWN) (role=1, dose=20 MG, DAILY, indication=DEPRESSION); PROPRANOLOL (role=",
+      "ground_truth_pts": [
+        "Hyponatraemia"
+      ],
+      "predicted_pts": [
+        "Hyponatraemia"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 12.47
+    },
+    {
+      "report_id": "10003375",
+      "narrative_preview": "Patient: 53 801 female. Drugs: PREDNISONE (role=1, dose=30 MG, PER DAY, indication=IMMUNOSUPPRESSION); CYCLOPHOSPHAMIDE ",
+      "ground_truth_pts": [
+        "Loss of consciousness",
+        "Listeriosis",
+        "Pyrexia",
+        "Headache",
+        "Vomiting",
+        "Meningitis"
+      ],
+      "predicted_pts": [
+        "Syncope",
+        "Infection",
+        "Pyrexia",
+        "Headache",
+        "Vomiting",
+        "Meningitis"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 4,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.53
+    },
+    {
+      "report_id": "10003386",
+      "narrative_preview": "Patient: 72 801 female. Drugs: LETAIRIS (role=1, dose=, indication=); LETAIRIS (role=1, dose=5 MG, QD, indication=PULMON",
+      "ground_truth_pts": [
+        "Fluid retention",
+        "Haemoglobin decreased"
+      ],
+      "predicted_pts": [
+        "Edema",
+        "Haemoglobin decreased"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 9.5
+    },
+    {
+      "report_id": "10003392",
+      "narrative_preview": "Patient: 77 801 male. Drugs: RAMIPRIL. (role=2, dose=, indication=HYPERTENSION); WARFARIN (role=2, dose=, indication=THR",
+      "ground_truth_pts": [
+        "Subdural haematoma"
+      ],
+      "predicted_pts": [
+        "Haematoma"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 19.78
+    },
+    {
+      "report_id": "10003397",
+      "narrative_preview": "Patient: 25 801 male. Drugs: CITALOPRAM ORAL SOLUTION (role=1, dose=OVERDOSE: 15 ML IN TOTAL, indication=INTENTIONAL SEL",
+      "ground_truth_pts": [
+        "Sopor",
+        "Drug abuse",
+        "Overdose"
+      ],
+      "predicted_pts": [
+        "Somnolence",
+        "Self-injurious behavior",
+        "Overdose"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 16.22
+    },
+    {
+      "report_id": "10003398",
+      "narrative_preview": "Patient: 77 801 male. Drugs: DONEPEZIL (role=1, dose=5 MG, DAILY; 5MG ONCE A DAY INCREASED TO 10MG AT NIGHT AFTER 2 WEEK",
+      "ground_truth_pts": [
+        "Hallucination, visual",
+        "Headache",
+        "Insomnia",
+        "Somnolence",
+        "Confusional state"
+      ],
+      "predicted_pts": [
+        "Hallucination",
+        "Blurred vision",
+        "Headache",
+        "Insomnia",
+        "Somnolence",
+        "Confusional state"
+      ],
+      "pt_precision_hits": 5,
+      "pt_recall_hits": 5,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.86
+    },
+    {
+      "report_id": "10003406",
+      "narrative_preview": "Patient: unknown  male. Drugs: MICROPAKINE (role=1, dose=, indication=EPILEPSY). Reactions: Cognitive disorder, Alopecia",
+      "ground_truth_pts": [
+        "Cognitive disorder",
+        "Alopecia"
+      ],
+      "predicted_pts": [
+        "Cognitive disorder",
+        "Alopecia"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 9.61
+    },
+    {
+      "report_id": "10003407",
+      "narrative_preview": "Patient: 47 801 female. Drugs: 5-FLUOROURACIL (role=1, dose=400 MG/M2, UNK, indication=GASTROOESOPHAGEAL CANCER); 5-FLUO",
+      "ground_truth_pts": [
+        "Ileus paralytic",
+        "Abdominal pain",
+        "Nausea"
+      ],
+      "predicted_pts": [
+        "Appendicitis",
+        "Abdominal pain",
+        "Nausea"
+      ],
+      "pt_precision_hits": 2,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.17
+    },
+    {
+      "report_id": "10003424",
+      "narrative_preview": "Patient: 30 801 female. Drugs: CEFTRIAXONE (role=1, dose=, indication=LISTERIOSIS); METRONIDAZOLE (role=1, dose=, indica",
+      "ground_truth_pts": [
+        "Foetal death",
+        "Abortion late",
+        "Amniotic cavity infection",
+        "Maternal exposure during pregnancy"
+      ],
+      "predicted_pts": [
+        "Foetal death",
+        "Abortion spontaneous",
+        "Infection",
+        "Foetal death"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 2,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 19.06
+    },
+    {
+      "report_id": "10003425",
+      "narrative_preview": "Patient: unknown  female. Drugs: MIRENA (role=1, dose=20 MCG/24HR, CONT, indication=). Reactions: Breast cancer, Device ",
+      "ground_truth_pts": [
+        "Breast cancer",
+        "Device misuse"
+      ],
+      "predicted_pts": [
+        "Leukaemia",
+        "Adverse event"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 13.42
+    },
+    {
+      "report_id": "10003426",
+      "narrative_preview": "Patient: 36 801 female. Drugs: MIRENA (role=1, dose=20 MCG/24HR, CONT, indication=CONTRACEPTION); MIRENA (role=1, dose=,",
+      "ground_truth_pts": [
+        "Uterine perforation",
+        "Depression",
+        "Anxiety",
+        "Depressed mood",
+        "Device issue",
+        "Injury",
+        "Pain",
+        "Emotional distress"
+      ],
+      "predicted_pts": [
+        "Vaginal haemorrhage",
+        "Depression",
+        "Anxiety",
+        "Depression",
+        "Device failure",
+        "Fracture",
+        "Pain",
+        "Anxiety"
+      ],
+      "pt_precision_hits": 5,
+      "pt_recall_hits": 3,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 28.46
+    },
+    {
+      "report_id": "10003428",
+      "narrative_preview": "Patient: unknown  female. Drugs: CEFTRIAXONE (role=1, dose=, indication=); METRONIDAZOLE (role=1, dose=, indication=); A",
+      "ground_truth_pts": [
+        "Foetal distress syndrome",
+        "Intraventricular haemorrhage neonatal",
+        "Low birth weight baby",
+        "Listeriosis",
+        "Pyrexia",
+        "Sepsis",
+        "Meningitis",
+        "Pneumonia aspiration",
+        "Oxygen saturation decreased",
+        "Foetal exposure during pregnancy"
+      ],
+      "predicted_pts": [
+        "Foetal death",
+        "Haemorrhage",
+        "Weight decreased",
+        "Infection",
+        "Pyrexia",
+        "Sepsis",
+        "Meningitis",
+        "Pneumonia",
+        "Oxygen saturation decreased",
+        "Foetal death"
+      ],
+      "pt_precision_hits": 6,
+      "pt_recall_hits": 6,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 37.65
+    },
+    {
+      "report_id": "10003429",
+      "narrative_preview": "Patient: 28 801 female. Drugs: CEFTRIAXONE (role=1, dose=, indication=LISTERIOSIS); METRONIDAZOLE (role=1, dose=, indica",
+      "ground_truth_pts": [
+        "Meconium stain",
+        "Amniotic cavity infection",
+        "Maternal exposure during pregnancy"
+      ],
+      "predicted_pts": [
+        "Abscess",
+        "Infection",
+        "Adverse event"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 20.16
+    },
+    {
+      "report_id": "10003432",
+      "narrative_preview": "Patient: 84 801 female. Drugs: LETAIRIS (role=1, dose=, indication=PULMONARY HYPERTENSION); LANTUS (role=2, dose=, indic",
+      "ground_truth_pts": [
+        "Oedema peripheral",
+        "Fluid retention"
+      ],
+      "predicted_pts": [
+        "Oedema peripheral",
+        "Pulmonary edema"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 23.93
+    },
+    {
+      "report_id": "10003437",
+      "narrative_preview": "Patient: 50 801 male. Drugs: LETAIRIS (role=1, dose=10 MG, UNK, indication=PULMONARY HYPERTENSION). Reactions: Fatigue, ",
+      "ground_truth_pts": [
+        "Fatigue",
+        "Oedema peripheral",
+        "Drug ineffective",
+        "Flushing"
+      ],
+      "predicted_pts": [
+        "Fatigue",
+        "Oedema peripheral",
+        "Drug ineffective",
+        "Flushing"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 4,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.11
+    },
+    {
+      "report_id": "10003444",
+      "narrative_preview": "Patient: 84 801 male. Drugs: LETAIRIS (role=1, dose=5 MG, UNK, indication=PULMONARY ARTERIAL HYPERTENSION). Reactions: C",
+      "ground_truth_pts": [
+        "Cardiac failure congestive",
+        "Fluid retention",
+        "Swelling"
+      ],
+      "predicted_pts": [
+        "Heart failure",
+        "Edema",
+        "Edema"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 14.19
+    },
+    {
+      "report_id": "10003449",
+      "narrative_preview": "Patient: 32 801 female. Drugs: CEFTRIAXONE (role=1, dose=, indication=LISTERIOSIS); CLARITHROMYCIN (role=1, dose=, indic",
+      "ground_truth_pts": [
+        "Pyelonephritis",
+        "Maternal exposure during pregnancy",
+        "Normal newborn"
+      ],
+      "predicted_pts": [
+        "Pyelonephritis",
+        "Adverse event",
+        "Feeling abnormal"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 18.58
+    },
+    {
+      "report_id": "10003450",
+      "narrative_preview": "Patient: 68 801 female. Drugs: CAPTOPRIL SANDOZ (role=1, dose=25 MG, BID, indication=BLOOD PRESSURE); SINVASTACOR (role=",
+      "ground_truth_pts": [
+        "Blood pressure fluctuation",
+        "Dyspepsia",
+        "Allergic cough",
+        "Headache",
+        "Malaise"
+      ],
+      "predicted_pts": [
+        "Hypotension",
+        "Dyspepsia",
+        "Cough",
+        "Headache",
+        "Malaise"
+      ],
+      "pt_precision_hits": 4,
+      "pt_recall_hits": 4,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 22.53
+    },
+    {
+      "report_id": "10003451",
+      "narrative_preview": "Patient: 54 801 female. Drugs: LETAIRIS (role=1, dose=5 MG, UNK, indication=PULMONARY ARTERIAL HYPERTENSION). Reactions:",
+      "ground_truth_pts": [
+        "Fluid retention"
+      ],
+      "predicted_pts": [
+        "Edema"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 9.34
+    },
+    {
+      "report_id": "10003458",
+      "narrative_preview": "Patient: 48 801 female. Drugs: LETAIRIS (role=1, dose=, indication=PULMONARY HYPERTENSION); LETAIRIS (role=1, dose=5 MG,",
+      "ground_truth_pts": [
+        "Fluid overload"
+      ],
+      "predicted_pts": [
+        "Hyperhydration"
+      ],
+      "pt_precision_hits": 0,
+      "pt_recall_hits": 0,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 11.26
+    },
+    {
+      "report_id": "10003468",
+      "narrative_preview": "Patient: 84 801 female. Drugs: BISOPROLOL (role=1, dose=1 DF, QD, indication=ARRHYTHMIA); TRIMETAZIDINE HYDROCHLORIDE SA",
+      "ground_truth_pts": [
+        "Renal failure acute"
+      ],
+      "predicted_pts": [
+        "Renal failure acute"
+      ],
+      "pt_precision_hits": 1,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 26.33
+    },
+    {
+      "report_id": "10003487",
+      "narrative_preview": "Patient: 80 801 female. Drugs: ZOLPIDEM SANDOZ (role=1, dose=1 DF, QD, indication=PRODUCT USED FOR UNKNOWN INDICATION). ",
+      "ground_truth_pts": [
+        "Disorientation",
+        "Drug prescribing error",
+        "Incorrect dose administered",
+        "Medication error"
+      ],
+      "predicted_pts": [
+        "Confusional state",
+        "Medication error",
+        "Medication error",
+        "Medication error"
+      ],
+      "pt_precision_hits": 3,
+      "pt_recall_hits": 1,
+      "predicted_serious": true,
+      "gt_serious": true,
+      "latency": 12.15
+    }
+  ]
+}

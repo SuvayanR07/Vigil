@@ -1,0 +1,32 @@
+chroma_db/
+
+# Per-customer private data — never commit
+data/customers/
+
+# Pre-cached demo results (regenerate locally)
+data/demo_results.json
+
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+*.log
+.streamlit/secrets.toml
+
+# Whisper model cache (downloaded on first use, ~140MB)
+~/.cache/whisper/
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp

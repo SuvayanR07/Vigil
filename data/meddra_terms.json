@@ -1,0 +1,4510 @@
+[
+  {
+    "pt_name": "Tachycardia",
+    "pt_code": "10043071",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Heart rate disorders",
+    "synonyms": [
+      "fast heart rate",
+      "racing heart",
+      "heart was racing",
+      "heart racing",
+      "heart pounding",
+      "rapid heartbeat"
+    ],
+    "search_text": "Tachycardia | fast heart rate | racing heart | heart was racing | heart racing | heart pounding | rapid heartbeat"
+  },
+  {
+    "pt_name": "Bradycardia",
+    "pt_code": "10006093",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Heart rate disorders",
+    "synonyms": [
+      "slow heart rate",
+      "slow pulse"
+    ],
+    "search_text": "Bradycardia | slow heart rate | slow pulse"
+  },
+  {
+    "pt_name": "Palpitations",
+    "pt_code": "10033557",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Heart rate disorders",
+    "synonyms": [
+      "heart fluttering",
+      "heart skipping"
+    ],
+    "search_text": "Palpitations | heart fluttering | heart skipping"
+  },
+  {
+    "pt_name": "Atrial fibrillation",
+    "pt_code": "10003658",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Atrial arrhythmias",
+    "synonyms": [
+      "AFib",
+      "irregular heart rhythm"
+    ],
+    "search_text": "Atrial fibrillation | AFib | irregular heart rhythm"
+  },
+  {
+    "pt_name": "Cardiac arrest",
+    "pt_code": "10007515",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Cardiac arrests",
+    "synonyms": [
+      "heart stopped",
+      "heart failure"
+    ],
+    "search_text": "Cardiac arrest | heart stopped | heart failure"
+  },
+  {
+    "pt_name": "Myocardial infarction",
+    "pt_code": "10028596",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Coronary disorders",
+    "synonyms": [
+      "heart attack",
+      "MI"
+    ],
+    "search_text": "Myocardial infarction | heart attack | MI"
+  },
+  {
+    "pt_name": "Arrhythmia",
+    "pt_code": "10003119",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Arrhythmias",
+    "synonyms": [
+      "irregular heartbeat",
+      "heart rhythm problem"
+    ],
+    "search_text": "Arrhythmia | irregular heartbeat | heart rhythm problem"
+  },
+  {
+    "pt_name": "Ventricular fibrillation",
+    "pt_code": "10047065",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Ventricular arrhythmias",
+    "synonyms": [
+      "VF",
+      "heart quivering"
+    ],
+    "search_text": "Ventricular fibrillation | VF | heart quivering"
+  },
+  {
+    "pt_name": "Supraventricular tachycardia",
+    "pt_code": "10042722",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Supraventricular arrhythmias",
+    "synonyms": [
+      "SVT",
+      "fast heart rate above chambers"
+    ],
+    "search_text": "Supraventricular tachycardia | SVT | fast heart rate above chambers"
+  },
+  {
+    "pt_name": "Heart failure",
+    "pt_code": "10018965",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Cardiac failure",
+    "synonyms": [
+      "heart failure",
+      "congestive heart failure",
+      "CHF"
+    ],
+    "search_text": "Heart failure | heart failure | congestive heart failure | CHF"
+  },
+  {
+    "pt_name": "Acute myocardial infarction",
+    "pt_code": "10000891",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Coronary disorders",
+    "synonyms": [
+      "acute heart attack",
+      "sudden MI"
+    ],
+    "search_text": "Acute myocardial infarction | acute heart attack | sudden MI"
+  },
+  {
+    "pt_name": "Cardiomyopathy",
+    "pt_code": "10007515",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Cardiac dysfunction",
+    "synonyms": [
+      "heart muscle disease",
+      "weak heart muscle"
+    ],
+    "search_text": "Cardiomyopathy | heart muscle disease | weak heart muscle"
+  },
+  {
+    "pt_name": "Pericarditis",
+    "pt_code": "10034570",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Pericardial disorders",
+    "synonyms": [
+      "heart sac inflammation",
+      "pericardium inflammation"
+    ],
+    "search_text": "Pericarditis | heart sac inflammation | pericardium inflammation"
+  },
+  {
+    "pt_name": "Myocarditis",
+    "pt_code": "10028634",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Myocardial disorders",
+    "synonyms": [
+      "heart muscle inflammation",
+      "inflammation of heart muscle"
+    ],
+    "search_text": "Myocarditis | heart muscle inflammation | inflammation of heart muscle"
+  },
+  {
+    "pt_name": "Atrioventricular block",
+    "pt_code": "10003656",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Conduction abnormalities",
+    "synonyms": [
+      "AV block",
+      "heart block",
+      "blocked conduction"
+    ],
+    "search_text": "Atrioventricular block | AV block | heart block | blocked conduction"
+  },
+  {
+    "pt_name": "Bundle branch block",
+    "pt_code": "10006556",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Conduction abnormalities",
+    "synonyms": [
+      "electrical block in heart",
+      "conduction delay"
+    ],
+    "search_text": "Bundle branch block | electrical block in heart | conduction delay"
+  },
+  {
+    "pt_name": "Cardiac fibrosis",
+    "pt_code": "10007521",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Cardiac damage",
+    "synonyms": [
+      "heart scarring",
+      "cardiac scarring"
+    ],
+    "search_text": "Cardiac fibrosis | heart scarring | cardiac scarring"
+  },
+  {
+    "pt_name": "Coronary artery disease",
+    "pt_code": "10010999",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Coronary disorders",
+    "synonyms": [
+      "CAD",
+      "blocked arteries in heart"
+    ],
+    "search_text": "Coronary artery disease | CAD | blocked arteries in heart"
+  },
+  {
+    "pt_name": "Unstable angina",
+    "pt_code": "10046276",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Coronary disorders",
+    "synonyms": [
+      "chest pain at rest",
+      "sudden chest pain"
+    ],
+    "search_text": "Unstable angina | chest pain at rest | sudden chest pain"
+  },
+  {
+    "pt_name": "Angina pectoris",
+    "pt_code": "10002218",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Coronary disorders",
+    "synonyms": [
+      "chest pain with exercise",
+      "anginal pain"
+    ],
+    "search_text": "Angina pectoris | chest pain with exercise | anginal pain"
+  },
+  {
+    "pt_name": "Valve disease",
+    "pt_code": "10046735",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Valvular disorders",
+    "synonyms": [
+      "heart valve problem",
+      "faulty valve"
+    ],
+    "search_text": "Valve disease | heart valve problem | faulty valve"
+  },
+  {
+    "pt_name": "Mitral regurgitation",
+    "pt_code": "10027403",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Valvular disorders",
+    "synonyms": [
+      "leaky mitral valve",
+      "valve leakage"
+    ],
+    "search_text": "Mitral regurgitation | leaky mitral valve | valve leakage"
+  },
+  {
+    "pt_name": "Aortic stenosis",
+    "pt_code": "10002600",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Valvular disorders",
+    "synonyms": [
+      "narrowed aortic valve",
+      "stiff aortic valve"
+    ],
+    "search_text": "Aortic stenosis | narrowed aortic valve | stiff aortic valve"
+  },
+  {
+    "pt_name": "QT prolongation",
+    "pt_code": "10037363",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Conduction abnormalities",
+    "synonyms": [
+      "long QT",
+      "prolonged QT interval"
+    ],
+    "search_text": "QT prolongation | long QT | prolonged QT interval"
+  },
+  {
+    "pt_name": "Electrocardiogram abnormal",
+    "pt_code": "10013951",
+    "soc_name": "Cardiac disorders",
+    "hlt_name": "Cardiac investigations",
+    "synonyms": [
+      "abnormal ECG",
+      "irregular EKG"
+    ],
+    "search_text": "Electrocardiogram abnormal | abnormal ECG | irregular EKG"
+  },
+  {
+    "pt_name": "Hypertension",
+    "pt_code": "10020772",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Vascular hypertensive disorders",
+    "synonyms": [
+      "high blood pressure",
+      "elevated BP"
+    ],
+    "search_text": "Hypertension | high blood pressure | elevated BP"
+  },
+  {
+    "pt_name": "Hypotension",
+    "pt_code": "10021097",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Vascular hypotensive disorders",
+    "synonyms": [
+      "low blood pressure",
+      "BP drop"
+    ],
+    "search_text": "Hypotension | low blood pressure | BP drop"
+  },
+  {
+    "pt_name": "Deep vein thrombosis",
+    "pt_code": "10051055",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Venous thrombotic disorders",
+    "synonyms": [
+      "DVT",
+      "leg blood clot"
+    ],
+    "search_text": "Deep vein thrombosis | DVT | leg blood clot"
+  },
+  {
+    "pt_name": "Pulmonary embolism",
+    "pt_code": "10037377",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Pulmonary vascular disorders",
+    "synonyms": [
+      "PE",
+      "lung blood clot"
+    ],
+    "search_text": "Pulmonary embolism | PE | lung blood clot"
+  },
+  {
+    "pt_name": "Thrombosis",
+    "pt_code": "10043607",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Thrombotic conditions",
+    "synonyms": [
+      "blood clot",
+      "clotting",
+      "thrombus"
+    ],
+    "search_text": "Thrombosis | blood clot | clotting | thrombus"
+  },
+  {
+    "pt_name": "Haemorrhage",
+    "pt_code": "10018985",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Vascular haemorrhages",
+    "synonyms": [
+      "bleeding",
+      "blood loss"
+    ],
+    "search_text": "Haemorrhage | bleeding | blood loss"
+  },
+  {
+    "pt_name": "Stroke",
+    "pt_code": "10042244",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Cerebrovascular conditions",
+    "synonyms": [
+      "CVA",
+      "brain attack"
+    ],
+    "search_text": "Stroke | CVA | brain attack"
+  },
+  {
+    "pt_name": "Transient ischaemic attack",
+    "pt_code": "10044155",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Cerebrovascular conditions",
+    "synonyms": [
+      "TIA",
+      "mini stroke"
+    ],
+    "search_text": "Transient ischaemic attack | TIA | mini stroke"
+  },
+  {
+    "pt_name": "Peripheral arterial occlusion",
+    "pt_code": "10034648",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Peripheral vascular disorders",
+    "synonyms": [
+      "blocked artery in leg",
+      "arterial blockage"
+    ],
+    "search_text": "Peripheral arterial occlusion | blocked artery in leg | arterial blockage"
+  },
+  {
+    "pt_name": "Varicose veins",
+    "pt_code": "10046735",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Venous disorders",
+    "synonyms": [
+      "enlarged veins",
+      "swollen veins"
+    ],
+    "search_text": "Varicose veins | enlarged veins | swollen veins"
+  },
+  {
+    "pt_name": "Vascular insufficiency peripheral",
+    "pt_code": "10046486",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Peripheral vascular disorders",
+    "synonyms": [
+      "poor circulation in legs",
+      "circulation problems"
+    ],
+    "search_text": "Vascular insufficiency peripheral | poor circulation in legs | circulation problems"
+  },
+  {
+    "pt_name": "Hypertensive crisis",
+    "pt_code": "10021019",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Hypertensive conditions",
+    "synonyms": [
+      "dangerously high BP",
+      "severe hypertension"
+    ],
+    "search_text": "Hypertensive crisis | dangerously high BP | severe hypertension"
+  },
+  {
+    "pt_name": "Bleeding",
+    "pt_code": "10005394",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Haemorrhages",
+    "synonyms": [
+      "hemorrhage",
+      "blood loss"
+    ],
+    "search_text": "Bleeding | hemorrhage | blood loss"
+  },
+  {
+    "pt_name": "Vasculitis",
+    "pt_code": "10046735",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Vascular inflammation",
+    "synonyms": [
+      "blood vessel inflammation",
+      "inflamed blood vessels"
+    ],
+    "search_text": "Vasculitis | blood vessel inflammation | inflamed blood vessels"
+  },
+  {
+    "pt_name": "Aneurysm",
+    "pt_code": "10002199",
+    "soc_name": "Vascular disorders",
+    "hlt_name": "Vascular damage",
+    "synonyms": [
+      "bulging blood vessel",
+      "weakened vessel wall"
+    ],
+    "search_text": "Aneurysm | bulging blood vessel | weakened vessel wall"
+  },
+  {
+    "pt_name": "Nausea",
+    "pt_code": "10028813",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Nausea",
+    "synonyms": [
+      "feeling sick",
+      "queasy"
+    ],
+    "search_text": "Nausea | feeling sick | queasy"
+  },
+  {
+    "pt_name": "Vomiting",
+    "pt_code": "10047700",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Vomiting",
+    "synonyms": [
+      "threw up",
+      "throwing up"
+    ],
+    "search_text": "Vomiting | threw up | throwing up"
+  },
+  {
+    "pt_name": "Diarrhoea",
+    "pt_code": "10012735",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Diarrhoea",
+    "synonyms": [
+      "diarrhea",
+      "loose stools"
+    ],
+    "search_text": "Diarrhoea | diarrhea | loose stools"
+  },
+  {
+    "pt_name": "Constipation",
+    "pt_code": "10010774",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Constipation",
+    "synonyms": [
+      "can't poop",
+      "no bowel movement"
+    ],
+    "search_text": "Constipation | can't poop | no bowel movement"
+  },
+  {
+    "pt_name": "Abdominal pain",
+    "pt_code": "10000081",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Abdominal symptoms",
+    "synonyms": [
+      "stomach pain",
+      "belly pain"
+    ],
+    "search_text": "Abdominal pain | stomach pain | belly pain"
+  },
+  {
+    "pt_name": "Dyspepsia",
+    "pt_code": "10013946",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Dyspepsia",
+    "synonyms": [
+      "indigestion",
+      "heartburn"
+    ],
+    "search_text": "Dyspepsia | indigestion | heartburn"
+  },
+  {
+    "pt_name": "Gastroesophageal reflux disease",
+    "pt_code": "10017930",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Reflux disorders",
+    "synonyms": [
+      "GERD",
+      "acid reflux"
+    ],
+    "search_text": "Gastroesophageal reflux disease | GERD | acid reflux"
+  },
+  {
+    "pt_name": "Gastrointestinal haemorrhage",
+    "pt_code": "10017955",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "GI haemorrhages",
+    "synonyms": [
+      "GI bleed",
+      "stomach bleeding"
+    ],
+    "search_text": "Gastrointestinal haemorrhage | GI bleed | stomach bleeding"
+  },
+  {
+    "pt_name": "Upper gastrointestinal haemorrhage",
+    "pt_code": "10046400",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "GI haemorrhages",
+    "synonyms": [
+      "upper GI bleed",
+      "stomach or esophagus bleeding"
+    ],
+    "search_text": "Upper gastrointestinal haemorrhage | upper GI bleed | stomach or esophagus bleeding"
+  },
+  {
+    "pt_name": "Lower gastrointestinal haemorrhage",
+    "pt_code": "10024378",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "GI haemorrhages",
+    "synonyms": [
+      "lower GI bleed",
+      "colon bleeding"
+    ],
+    "search_text": "Lower gastrointestinal haemorrhage | lower GI bleed | colon bleeding"
+  },
+  {
+    "pt_name": "Flatulence",
+    "pt_code": "10016766",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Abdominal symptoms",
+    "synonyms": [
+      "gas",
+      "bloating"
+    ],
+    "search_text": "Flatulence | gas | bloating"
+  },
+  {
+    "pt_name": "Dysphagia",
+    "pt_code": "10013950",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Swallowing disorders",
+    "synonyms": [
+      "difficulty swallowing",
+      "trouble swallowing"
+    ],
+    "search_text": "Dysphagia | difficulty swallowing | trouble swallowing"
+  },
+  {
+    "pt_name": "Pancreatitis",
+    "pt_code": "10033645",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Pancreatic conditions",
+    "synonyms": [
+      "pancreas inflammation",
+      "inflamed pancreas"
+    ],
+    "search_text": "Pancreatitis | pancreas inflammation | inflamed pancreas"
+  },
+  {
+    "pt_name": "Acute pancreatitis",
+    "pt_code": "10000987",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Pancreatic conditions",
+    "synonyms": [
+      "sudden pancreas inflammation"
+    ],
+    "search_text": "Acute pancreatitis | sudden pancreas inflammation"
+  },
+  {
+    "pt_name": "Hepatitis",
+    "pt_code": "10019717",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Liver conditions",
+    "synonyms": [
+      "liver inflammation",
+      "inflamed liver"
+    ],
+    "search_text": "Hepatitis | liver inflammation | inflamed liver"
+  },
+  {
+    "pt_name": "Gastritis",
+    "pt_code": "10017973",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Gastric conditions",
+    "synonyms": [
+      "stomach inflammation",
+      "inflamed stomach"
+    ],
+    "search_text": "Gastritis | stomach inflammation | inflamed stomach"
+  },
+  {
+    "pt_name": "Peptic ulcer",
+    "pt_code": "10034620",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Ulcerative conditions",
+    "synonyms": [
+      "stomach ulcer",
+      "ulcer"
+    ],
+    "search_text": "Peptic ulcer | stomach ulcer | ulcer"
+  },
+  {
+    "pt_name": "Cholecystitis",
+    "pt_code": "10008619",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Biliary conditions",
+    "synonyms": [
+      "gallbladder inflammation",
+      "inflamed gallbladder"
+    ],
+    "search_text": "Cholecystitis | gallbladder inflammation | inflamed gallbladder"
+  },
+  {
+    "pt_name": "Cholelithiasis",
+    "pt_code": "10008627",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Biliary conditions",
+    "synonyms": [
+      "gallstones",
+      "bile duct stones"
+    ],
+    "search_text": "Cholelithiasis | gallstones | bile duct stones"
+  },
+  {
+    "pt_name": "Colitis",
+    "pt_code": "10009887",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Colonic conditions",
+    "synonyms": [
+      "colon inflammation",
+      "inflamed colon"
+    ],
+    "search_text": "Colitis | colon inflammation | inflamed colon"
+  },
+  {
+    "pt_name": "Irritable bowel syndrome",
+    "pt_code": "10022570",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Bowel function disorders",
+    "synonyms": [
+      "IBS",
+      "spastic colon"
+    ],
+    "search_text": "Irritable bowel syndrome | IBS | spastic colon"
+  },
+  {
+    "pt_name": "Appendicitis",
+    "pt_code": "10002671",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Appendiceal conditions",
+    "synonyms": [
+      "appendix inflammation",
+      "inflamed appendix"
+    ],
+    "search_text": "Appendicitis | appendix inflammation | inflamed appendix"
+  },
+  {
+    "pt_name": "Hernia",
+    "pt_code": "10019749",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Tissue herniation",
+    "synonyms": [
+      "rupture",
+      "tissue protrusion"
+    ],
+    "search_text": "Hernia | rupture | tissue protrusion"
+  },
+  {
+    "pt_name": "Gastric ulcer",
+    "pt_code": "10017938",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Ulcerative conditions",
+    "synonyms": [
+      "stomach ulcer",
+      "gastric erosion"
+    ],
+    "search_text": "Gastric ulcer | stomach ulcer | gastric erosion"
+  },
+  {
+    "pt_name": "Duodenal ulcer",
+    "pt_code": "10013872",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Ulcerative conditions",
+    "synonyms": [
+      "small intestine ulcer"
+    ],
+    "search_text": "Duodenal ulcer | small intestine ulcer"
+  },
+  {
+    "pt_name": "Oesophagitis",
+    "pt_code": "10031227",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Oesophageal conditions",
+    "synonyms": [
+      "esophagitis",
+      "throat inflammation"
+    ],
+    "search_text": "Oesophagitis | esophagitis | throat inflammation"
+  },
+  {
+    "pt_name": "Gastroenteritis",
+    "pt_code": "10016921",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Gastroenteritis",
+    "synonyms": [
+      "stomach flu",
+      "food poisoning"
+    ],
+    "search_text": "Gastroenteritis | stomach flu | food poisoning"
+  },
+  {
+    "pt_name": "Enteritis",
+    "pt_code": "10015057",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Enteritis",
+    "synonyms": [
+      "small intestine inflammation",
+      "intestinal inflammation"
+    ],
+    "search_text": "Enteritis | small intestine inflammation | intestinal inflammation"
+  },
+  {
+    "pt_name": "Crohn's disease",
+    "pt_code": "10011403",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Inflammatory bowel disorders",
+    "synonyms": [
+      "inflammatory bowel disease",
+      "IBD"
+    ],
+    "search_text": "Crohn's disease | inflammatory bowel disease | IBD"
+  },
+  {
+    "pt_name": "Ulcerative colitis",
+    "pt_code": "10046571",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Inflammatory bowel disorders",
+    "synonyms": [
+      "ulcerative colitis",
+      "inflammatory colon"
+    ],
+    "search_text": "Ulcerative colitis | ulcerative colitis | inflammatory colon"
+  },
+  {
+    "pt_name": "Malabsorption",
+    "pt_code": "10025439",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Absorption disorders",
+    "synonyms": [
+      "food not absorbed",
+      "nutrient absorption problem"
+    ],
+    "search_text": "Malabsorption | food not absorbed | nutrient absorption problem"
+  },
+  {
+    "pt_name": "Constipation",
+    "pt_code": "10010774",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Bowel function disorders",
+    "synonyms": [
+      "backed up",
+      "hard stool"
+    ],
+    "search_text": "Constipation | backed up | hard stool"
+  },
+  {
+    "pt_name": "Stomatitis",
+    "pt_code": "10042128",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Oral conditions",
+    "synonyms": [
+      "mouth sores",
+      "mouth inflammation"
+    ],
+    "search_text": "Stomatitis | mouth sores | mouth inflammation"
+  },
+  {
+    "pt_name": "Glossitis",
+    "pt_code": "10018851",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Oral conditions",
+    "synonyms": [
+      "tongue inflammation",
+      "swollen tongue"
+    ],
+    "search_text": "Glossitis | tongue inflammation | swollen tongue"
+  },
+  {
+    "pt_name": "Gingavitis",
+    "pt_code": "10018787",
+    "soc_name": "Gastrointestinal disorders",
+    "hlt_name": "Oral conditions",
+    "synonyms": [
+      "gum inflammation",
+      "swollen gums"
+    ],
+    "search_text": "Gingavitis | gum inflammation | swollen gums"
+  },
+  {
+    "pt_name": "Headache",
+    "pt_code": "10019211",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Headaches",
+    "synonyms": [
+      "head pain",
+      "migraine"
+    ],
+    "search_text": "Headache | head pain | migraine"
+  },
+  {
+    "pt_name": "Dizziness",
+    "pt_code": "10013573",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Vertigo",
+    "synonyms": [
+      "feeling dizzy",
+      "lightheadedness"
+    ],
+    "search_text": "Dizziness | feeling dizzy | lightheadedness"
+  },
+  {
+    "pt_name": "Syncope",
+    "pt_code": "10042772",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Syncope",
+    "synonyms": [
+      "fainting",
+      "passed out"
+    ],
+    "search_text": "Syncope | fainting | passed out"
+  },
+  {
+    "pt_name": "Tremor",
+    "pt_code": "10044565",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "shaking",
+      "trembling"
+    ],
+    "search_text": "Tremor | shaking | trembling"
+  },
+  {
+    "pt_name": "Paraesthesia",
+    "pt_code": "10033775",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Paraesthesia",
+    "synonyms": [
+      "tingling",
+      "pins and needles"
+    ],
+    "search_text": "Paraesthesia | tingling | pins and needles"
+  },
+  {
+    "pt_name": "Neuropathy peripheral",
+    "pt_code": "10029331",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Peripheral neuropathies",
+    "synonyms": [
+      "nerve damage",
+      "numbness in extremities"
+    ],
+    "search_text": "Neuropathy peripheral | nerve damage | numbness in extremities"
+  },
+  {
+    "pt_name": "Seizure",
+    "pt_code": "10039906",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Seizures",
+    "synonyms": [
+      "convulsion",
+      "fit"
+    ],
+    "search_text": "Seizure | convulsion | fit"
+  },
+  {
+    "pt_name": "Cognitive disorder",
+    "pt_code": "10009895",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Cognitive disorders",
+    "synonyms": [
+      "brain fog",
+      "confusion"
+    ],
+    "search_text": "Cognitive disorder | brain fog | confusion"
+  },
+  {
+    "pt_name": "Insomnia",
+    "pt_code": "10022437",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Sleep disorders",
+    "synonyms": [
+      "can't sleep",
+      "sleeplessness"
+    ],
+    "search_text": "Insomnia | can't sleep | sleeplessness"
+  },
+  {
+    "pt_name": "Somnolence",
+    "pt_code": "10041349",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Sleep disorders",
+    "synonyms": [
+      "drowsiness",
+      "sleepiness"
+    ],
+    "search_text": "Somnolence | drowsiness | sleepiness"
+  },
+  {
+    "pt_name": "Stroke",
+    "pt_code": "10042244",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Cerebrovascular conditions",
+    "synonyms": [
+      "CVA",
+      "brain attack"
+    ],
+    "search_text": "Stroke | CVA | brain attack"
+  },
+  {
+    "pt_name": "Migraine",
+    "pt_code": "10027449",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Headaches",
+    "synonyms": [
+      "severe headache",
+      "throbbing head pain"
+    ],
+    "search_text": "Migraine | severe headache | throbbing head pain"
+  },
+  {
+    "pt_name": "Vertigo",
+    "pt_code": "10047340",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Vertigo",
+    "synonyms": [
+      "room spinning",
+      "balance problem"
+    ],
+    "search_text": "Vertigo | room spinning | balance problem"
+  },
+  {
+    "pt_name": "Ataxia",
+    "pt_code": "10003540",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Coordination disorders",
+    "synonyms": [
+      "loss of coordination",
+      "wobbly gait"
+    ],
+    "search_text": "Ataxia | loss of coordination | wobbly gait"
+  },
+  {
+    "pt_name": "Parkinson's disease",
+    "pt_code": "10034416",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "Parkinson",
+      "rigidity and tremor"
+    ],
+    "search_text": "Parkinson's disease | Parkinson | rigidity and tremor"
+  },
+  {
+    "pt_name": "Chorea",
+    "pt_code": "10008814",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "involuntary movement",
+      "jerky movements"
+    ],
+    "search_text": "Chorea | involuntary movement | jerky movements"
+  },
+  {
+    "pt_name": "Dystonia",
+    "pt_code": "10013999",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "muscle spasm",
+      "abnormal posture"
+    ],
+    "search_text": "Dystonia | muscle spasm | abnormal posture"
+  },
+  {
+    "pt_name": "Myoclonus",
+    "pt_code": "10028458",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "muscle twitch",
+      "jerking"
+    ],
+    "search_text": "Myoclonus | muscle twitch | jerking"
+  },
+  {
+    "pt_name": "Akathisia",
+    "pt_code": "10001517",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Restlessness",
+    "synonyms": [
+      "inability to sit still",
+      "inner restlessness"
+    ],
+    "search_text": "Akathisia | inability to sit still | inner restlessness"
+  },
+  {
+    "pt_name": "Tardive dyskinesia",
+    "pt_code": "10043372",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Movement disorders",
+    "synonyms": [
+      "involuntary mouth movements",
+      "lip smacking"
+    ],
+    "search_text": "Tardive dyskinesia | involuntary mouth movements | lip smacking"
+  },
+  {
+    "pt_name": "Aphasia",
+    "pt_code": "10002687",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Speech disorders",
+    "synonyms": [
+      "difficulty speaking",
+      "language problem"
+    ],
+    "search_text": "Aphasia | difficulty speaking | language problem"
+  },
+  {
+    "pt_name": "Apraxia",
+    "pt_code": "10002854",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Coordination disorders",
+    "synonyms": [
+      "inability to perform movement",
+      "movement planning problem"
+    ],
+    "search_text": "Apraxia | inability to perform movement | movement planning problem"
+  },
+  {
+    "pt_name": "Dysarthria",
+    "pt_code": "10013885",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Speech disorders",
+    "synonyms": [
+      "slurred speech",
+      "speech difficulty"
+    ],
+    "search_text": "Dysarthria | slurred speech | speech difficulty"
+  },
+  {
+    "pt_name": "Vision loss",
+    "pt_code": "10047516",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Vision disorders",
+    "synonyms": [
+      "loss of sight",
+      "blindness"
+    ],
+    "search_text": "Vision loss | loss of sight | blindness"
+  },
+  {
+    "pt_name": "Nystagmus",
+    "pt_code": "10031730",
+    "soc_name": "Nervous system disorders",
+    "hlt_name": "Vision disorders",
+    "synonyms": [
+      "eye jerking",
+      "involuntary eye movement"
+    ],
+    "search_text": "Nystagmus | eye jerking | involuntary eye movement"
+  },
+  {
+    "pt_name": "Dyspnoea",
+    "pt_code": "10013968",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Dyspnoea",
+    "synonyms": [
+      "shortness of breath",
+      "difficulty breathing"
+    ],
+    "search_text": "Dyspnoea | shortness of breath | difficulty breathing"
+  },
+  {
+    "pt_name": "Cough",
+    "pt_code": "10011224",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Coughing",
+    "synonyms": [
+      "persistent cough",
+      "dry cough"
+    ],
+    "search_text": "Cough | persistent cough | dry cough"
+  },
+  {
+    "pt_name": "Pneumonia",
+    "pt_code": "10035664",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory infections",
+    "synonyms": [
+      "lung infection",
+      "chest infection"
+    ],
+    "search_text": "Pneumonia | lung infection | chest infection"
+  },
+  {
+    "pt_name": "Bronchitis",
+    "pt_code": "10006501",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory infections",
+    "synonyms": [
+      "airway inflammation",
+      "chest inflammation"
+    ],
+    "search_text": "Bronchitis | airway inflammation | chest inflammation"
+  },
+  {
+    "pt_name": "Asthma",
+    "pt_code": "10003488",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory conditions",
+    "synonyms": [
+      "asthmatic attack",
+      "wheezing"
+    ],
+    "search_text": "Asthma | asthmatic attack | wheezing"
+  },
+  {
+    "pt_name": "Bronchospasm",
+    "pt_code": "10006482",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Bronchospasm",
+    "synonyms": [
+      "airway spasm",
+      "wheezing"
+    ],
+    "search_text": "Bronchospasm | airway spasm | wheezing"
+  },
+  {
+    "pt_name": "Respiratory failure",
+    "pt_code": "10038695",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory failures",
+    "synonyms": [
+      "breathing failure",
+      "stopped breathing"
+    ],
+    "search_text": "Respiratory failure | breathing failure | stopped breathing"
+  },
+  {
+    "pt_name": "Acute respiratory distress syndrome",
+    "pt_code": "10001052",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory failures",
+    "synonyms": [
+      "ARDS",
+      "lung failure"
+    ],
+    "search_text": "Acute respiratory distress syndrome | ARDS | lung failure"
+  },
+  {
+    "pt_name": "Pulmonary edema",
+    "pt_code": "10037380",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Pulmonary disorders",
+    "synonyms": [
+      "fluid in lungs",
+      "water in lungs"
+    ],
+    "search_text": "Pulmonary edema | fluid in lungs | water in lungs"
+  },
+  {
+    "pt_name": "Interstitial lung disease",
+    "pt_code": "10022611",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Lung fibrosis",
+    "synonyms": [
+      "lung scarring",
+      "ILD"
+    ],
+    "search_text": "Interstitial lung disease | lung scarring | ILD"
+  },
+  {
+    "pt_name": "Pulmonary fibrosis",
+    "pt_code": "10037381",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Lung fibrosis",
+    "synonyms": [
+      "lung scarring",
+      "stiff lungs"
+    ],
+    "search_text": "Pulmonary fibrosis | lung scarring | stiff lungs"
+  },
+  {
+    "pt_name": "Pneumonitis",
+    "pt_code": "10035672",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory infections",
+    "synonyms": [
+      "lung inflammation",
+      "inflamed lungs"
+    ],
+    "search_text": "Pneumonitis | lung inflammation | inflamed lungs"
+  },
+  {
+    "pt_name": "Pulmonary hypertension",
+    "pt_code": "10037378",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Pulmonary disorders",
+    "synonyms": [
+      "high lung pressure",
+      "lung vessel pressure"
+    ],
+    "search_text": "Pulmonary hypertension | high lung pressure | lung vessel pressure"
+  },
+  {
+    "pt_name": "Pleural effusion",
+    "pt_code": "10035468",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Pleural disorders",
+    "synonyms": [
+      "fluid around lungs",
+      "liquid around lung"
+    ],
+    "search_text": "Pleural effusion | fluid around lungs | liquid around lung"
+  },
+  {
+    "pt_name": "Pneumothorax",
+    "pt_code": "10035673",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Pleural disorders",
+    "synonyms": [
+      "collapsed lung",
+      "air in chest cavity"
+    ],
+    "search_text": "Pneumothorax | collapsed lung | air in chest cavity"
+  },
+  {
+    "pt_name": "Hiccough",
+    "pt_code": "10020753",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory symptoms",
+    "synonyms": [
+      "hiccups",
+      "involuntary breath"
+    ],
+    "search_text": "Hiccough | hiccups | involuntary breath"
+  },
+  {
+    "pt_name": "Apnea",
+    "pt_code": "10002599",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Breathing pauses",
+    "synonyms": [
+      "stopped breathing",
+      "breathing interruption"
+    ],
+    "search_text": "Apnea | stopped breathing | breathing interruption"
+  },
+  {
+    "pt_name": "Sleep apnea",
+    "pt_code": "10041350",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Sleep disorders",
+    "synonyms": [
+      "breath stops during sleep",
+      "stopped breathing at night"
+    ],
+    "search_text": "Sleep apnea | breath stops during sleep | stopped breathing at night"
+  },
+  {
+    "pt_name": "Stridor",
+    "pt_code": "10042239",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory symptoms",
+    "synonyms": [
+      "noisy breathing",
+      "high-pitched breathing"
+    ],
+    "search_text": "Stridor | noisy breathing | high-pitched breathing"
+  },
+  {
+    "pt_name": "Wheezing",
+    "pt_code": "10047924",
+    "soc_name": "Respiratory disorders",
+    "hlt_name": "Respiratory symptoms",
+    "synonyms": [
+      "whistling breath",
+      "squeaky breathing"
+    ],
+    "search_text": "Wheezing | whistling breath | squeaky breathing"
+  },
+  {
+    "pt_name": "Rash",
+    "pt_code": "10037844",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Rashes",
+    "synonyms": [
+      "skin rash",
+      "red rash",
+      "skin turned red",
+      "body rash",
+      "skin eruption",
+      "rash on skin"
+    ],
+    "search_text": "Rash | skin rash | red rash | skin turned red | body rash | skin eruption | rash on skin"
+  },
+  {
+    "pt_name": "Pruritus",
+    "pt_code": "10037087",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Pruritus",
+    "synonyms": [
+      "itching",
+      "itchy skin"
+    ],
+    "search_text": "Pruritus | itching | itchy skin"
+  },
+  {
+    "pt_name": "Urticaria",
+    "pt_code": "10046735",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Urticaria",
+    "synonyms": [
+      "hives",
+      "skin welts"
+    ],
+    "search_text": "Urticaria | hives | skin welts"
+  },
+  {
+    "pt_name": "Alopecia",
+    "pt_code": "10001781",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Hair disorders",
+    "synonyms": [
+      "hair loss",
+      "losing hair"
+    ],
+    "search_text": "Alopecia | hair loss | losing hair"
+  },
+  {
+    "pt_name": "Erythema",
+    "pt_code": "10015150",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Erythema",
+    "synonyms": [
+      "skin redness",
+      "red skin"
+    ],
+    "search_text": "Erythema | skin redness | red skin"
+  },
+  {
+    "pt_name": "Sweating increased",
+    "pt_code": "10042978",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Sweating",
+    "synonyms": [
+      "excessive sweating",
+      "hyperhidrosis"
+    ],
+    "search_text": "Sweating increased | excessive sweating | hyperhidrosis"
+  },
+  {
+    "pt_name": "Skin discolouration",
+    "pt_code": "10040799",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Skin pigmentation",
+    "synonyms": [
+      "skin color change",
+      "yellowing skin"
+    ],
+    "search_text": "Skin discolouration | skin color change | yellowing skin"
+  },
+  {
+    "pt_name": "Angioedema",
+    "pt_code": "10002424",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Swelling",
+    "synonyms": [
+      "face swelling",
+      "lip swelling"
+    ],
+    "search_text": "Angioedema | face swelling | lip swelling"
+  },
+  {
+    "pt_name": "Eczema",
+    "pt_code": "10014322",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Dermatitis",
+    "synonyms": [
+      "atopic dermatitis",
+      "skin inflammation"
+    ],
+    "search_text": "Eczema | atopic dermatitis | skin inflammation"
+  },
+  {
+    "pt_name": "Dermatitis",
+    "pt_code": "10012431",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Dermatitis",
+    "synonyms": [
+      "skin inflammation",
+      "inflamed skin"
+    ],
+    "search_text": "Dermatitis | skin inflammation | inflamed skin"
+  },
+  {
+    "pt_name": "Psoriasis",
+    "pt_code": "10037080",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Scaling disorders",
+    "synonyms": [
+      "scaly skin",
+      "patches of thick skin"
+    ],
+    "search_text": "Psoriasis | scaly skin | patches of thick skin"
+  },
+  {
+    "pt_name": "Acne",
+    "pt_code": "10000496",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Acne",
+    "synonyms": [
+      "pimples",
+      "breakout"
+    ],
+    "search_text": "Acne | pimples | breakout"
+  },
+  {
+    "pt_name": "Photosensitivity reaction",
+    "pt_code": "10034972",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Photodermatitis",
+    "synonyms": [
+      "sun sensitivity",
+      "sunburn reaction"
+    ],
+    "search_text": "Photosensitivity reaction | sun sensitivity | sunburn reaction"
+  },
+  {
+    "pt_name": "Stevens-Johnson syndrome",
+    "pt_code": "10042033",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Severe skin conditions",
+    "synonyms": [
+      "SJS",
+      "severe skin reaction"
+    ],
+    "search_text": "Stevens-Johnson syndrome | SJS | severe skin reaction"
+  },
+  {
+    "pt_name": "Toxic epidermal necrolysis",
+    "pt_code": "10044223",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Severe skin conditions",
+    "synonyms": [
+      "TEN",
+      "skin peeling"
+    ],
+    "search_text": "Toxic epidermal necrolysis | TEN | skin peeling"
+  },
+  {
+    "pt_name": "Pemphigus",
+    "pt_code": "10034563",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Autoimmune skin disorders",
+    "synonyms": [
+      "blistering disease",
+      "skin blisters"
+    ],
+    "search_text": "Pemphigus | blistering disease | skin blisters"
+  },
+  {
+    "pt_name": "Bullous dermatitis",
+    "pt_code": "10006556",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Bullous disorders",
+    "synonyms": [
+      "large blisters",
+      "fluid-filled blisters"
+    ],
+    "search_text": "Bullous dermatitis | large blisters | fluid-filled blisters"
+  },
+  {
+    "pt_name": "Purpura",
+    "pt_code": "10037087",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Vascular skin lesions",
+    "synonyms": [
+      "purple spots",
+      "bruising on skin"
+    ],
+    "search_text": "Purpura | purple spots | bruising on skin"
+  },
+  {
+    "pt_name": "Petechiae",
+    "pt_code": "10034620",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Vascular skin lesions",
+    "synonyms": [
+      "tiny red spots",
+      "pinpoint bruises"
+    ],
+    "search_text": "Petechiae | tiny red spots | pinpoint bruises"
+  },
+  {
+    "pt_name": "Hypertrichosis",
+    "pt_code": "10020816",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Hair disorders",
+    "synonyms": [
+      "excessive hair growth",
+      "too much hair"
+    ],
+    "search_text": "Hypertrichosis | excessive hair growth | too much hair"
+  },
+  {
+    "pt_name": "Hypohidrosis",
+    "pt_code": "10020814",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Sweating",
+    "synonyms": [
+      "decreased sweating",
+      "reduced sweating"
+    ],
+    "search_text": "Hypohidrosis | decreased sweating | reduced sweating"
+  },
+  {
+    "pt_name": "Dry skin",
+    "pt_code": "10013801",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Skin dryness",
+    "synonyms": [
+      "skin dryness",
+      "xerosis"
+    ],
+    "search_text": "Dry skin | skin dryness | xerosis"
+  },
+  {
+    "pt_name": "Oily skin",
+    "pt_code": "10031149",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Sebaceous gland disorders",
+    "synonyms": [
+      "greasy skin",
+      "excessive oil"
+    ],
+    "search_text": "Oily skin | greasy skin | excessive oil"
+  },
+  {
+    "pt_name": "Skin ulceration",
+    "pt_code": "10040829",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Skin loss",
+    "synonyms": [
+      "skin sore",
+      "open wound on skin"
+    ],
+    "search_text": "Skin ulceration | skin sore | open wound on skin"
+  },
+  {
+    "pt_name": "Hyperpigmentation",
+    "pt_code": "10020816",
+    "soc_name": "Skin disorders",
+    "hlt_name": "Skin pigmentation",
+    "synonyms": [
+      "too much skin color",
+      "dark patches"
+    ],
+    "search_text": "Hyperpigmentation | too much skin color | dark patches"
+  },
+  {
+    "pt_name": "Arthralgia",
+    "pt_code": "10003239",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Joint pain",
+    "synonyms": [
+      "joint pain",
+      "achy joints"
+    ],
+    "search_text": "Arthralgia | joint pain | achy joints"
+  },
+  {
+    "pt_name": "Myalgia",
+    "pt_code": "10028411",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Muscle pain",
+    "synonyms": [
+      "muscle pain",
+      "muscle soreness"
+    ],
+    "search_text": "Myalgia | muscle pain | muscle soreness"
+  },
+  {
+    "pt_name": "Back pain",
+    "pt_code": "10003988",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Back pain",
+    "synonyms": [
+      "back ache",
+      "lower back pain"
+    ],
+    "search_text": "Back pain | back ache | lower back pain"
+  },
+  {
+    "pt_name": "Muscle weakness",
+    "pt_code": "10028372",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Muscle weakness",
+    "synonyms": [
+      "weak muscles",
+      "strength loss"
+    ],
+    "search_text": "Muscle weakness | weak muscles | strength loss"
+  },
+  {
+    "pt_name": "Rhabdomyolysis",
+    "pt_code": "10039020",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Muscle breakdown",
+    "synonyms": [
+      "muscle breakdown",
+      "muscle destruction"
+    ],
+    "search_text": "Rhabdomyolysis | muscle breakdown | muscle destruction"
+  },
+  {
+    "pt_name": "Arthritis",
+    "pt_code": "10003246",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Joint disorders",
+    "synonyms": [
+      "joint inflammation",
+      "inflamed joints"
+    ],
+    "search_text": "Arthritis | joint inflammation | inflamed joints"
+  },
+  {
+    "pt_name": "Osteoarthritis",
+    "pt_code": "10031049",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Degenerative joint disease",
+    "synonyms": [
+      "wear and tear arthritis",
+      "joint degeneration"
+    ],
+    "search_text": "Osteoarthritis | wear and tear arthritis | joint degeneration"
+  },
+  {
+    "pt_name": "Rheumatoid arthritis",
+    "pt_code": "10039072",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Inflammatory joint disease",
+    "synonyms": [
+      "RA",
+      "rheumatoid joint disease"
+    ],
+    "search_text": "Rheumatoid arthritis | RA | rheumatoid joint disease"
+  },
+  {
+    "pt_name": "Gout",
+    "pt_code": "10018840",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Gout and related conditions",
+    "synonyms": [
+      "gouty arthritis",
+      "uric acid buildup"
+    ],
+    "search_text": "Gout | gouty arthritis | uric acid buildup"
+  },
+  {
+    "pt_name": "Osteoporosis",
+    "pt_code": "10031078",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Bone disorders",
+    "synonyms": [
+      "weak bones",
+      "brittle bones"
+    ],
+    "search_text": "Osteoporosis | weak bones | brittle bones"
+  },
+  {
+    "pt_name": "Muscle cramp",
+    "pt_code": "10028364",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Muscle symptoms",
+    "synonyms": [
+      "muscle spasm",
+      "cramping"
+    ],
+    "search_text": "Muscle cramp | muscle spasm | cramping"
+  },
+  {
+    "pt_name": "Neck pain",
+    "pt_code": "10029370",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Neck pain",
+    "synonyms": [
+      "neck stiffness",
+      "sore neck"
+    ],
+    "search_text": "Neck pain | neck stiffness | sore neck"
+  },
+  {
+    "pt_name": "Shoulder pain",
+    "pt_code": "10040954",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Shoulder pain",
+    "synonyms": [
+      "shoulder ache",
+      "sore shoulder"
+    ],
+    "search_text": "Shoulder pain | shoulder ache | sore shoulder"
+  },
+  {
+    "pt_name": "Knee pain",
+    "pt_code": "10023664",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Knee pain",
+    "synonyms": [
+      "knee ache",
+      "sore knee"
+    ],
+    "search_text": "Knee pain | knee ache | sore knee"
+  },
+  {
+    "pt_name": "Hip pain",
+    "pt_code": "10020718",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Hip pain",
+    "synonyms": [
+      "hip ache",
+      "sore hip"
+    ],
+    "search_text": "Hip pain | hip ache | sore hip"
+  },
+  {
+    "pt_name": "Tendon disorder",
+    "pt_code": "10043448",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Tendon disorders",
+    "synonyms": [
+      "tendon injury",
+      "tendon problem"
+    ],
+    "search_text": "Tendon disorder | tendon injury | tendon problem"
+  },
+  {
+    "pt_name": "Myositis",
+    "pt_code": "10028635",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Muscle inflammation",
+    "synonyms": [
+      "muscle inflammation",
+      "inflamed muscle"
+    ],
+    "search_text": "Myositis | muscle inflammation | inflamed muscle"
+  },
+  {
+    "pt_name": "Bursitis",
+    "pt_code": "10006718",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Bursa disorders",
+    "synonyms": [
+      "bursa inflammation",
+      "inflamed bursa"
+    ],
+    "search_text": "Bursitis | bursa inflammation | inflamed bursa"
+  },
+  {
+    "pt_name": "Fibromyalgia",
+    "pt_code": "10016763",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Musculoskeletal pain",
+    "synonyms": [
+      "widespread muscle pain",
+      "chronic pain syndrome"
+    ],
+    "search_text": "Fibromyalgia | widespread muscle pain | chronic pain syndrome"
+  },
+  {
+    "pt_name": "Sciatica",
+    "pt_code": "10040005",
+    "soc_name": "Musculoskeletal disorders",
+    "hlt_name": "Nerve pain",
+    "synonyms": [
+      "sciatic nerve pain",
+      "leg nerve pain"
+    ],
+    "search_text": "Sciatica | sciatic nerve pain | leg nerve pain"
+  },
+  {
+    "pt_name": "Anaemia",
+    "pt_code": "10002034",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Anaemias",
+    "synonyms": [
+      "low blood count",
+      "anemia"
+    ],
+    "search_text": "Anaemia | low blood count | anemia"
+  },
+  {
+    "pt_name": "Thrombocytopenia",
+    "pt_code": "10043554",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Platelet disorders",
+    "synonyms": [
+      "low platelets",
+      "low platelet count"
+    ],
+    "search_text": "Thrombocytopenia | low platelets | low platelet count"
+  },
+  {
+    "pt_name": "Leucopenia",
+    "pt_code": "10024384",
+    "soc_name": "Blood disorders",
+    "hlt_name": "White cell disorders",
+    "synonyms": [
+      "low white blood cells",
+      "low WBC"
+    ],
+    "search_text": "Leucopenia | low white blood cells | low WBC"
+  },
+  {
+    "pt_name": "Neutropenia",
+    "pt_code": "10029351",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Neutrophil disorders",
+    "synonyms": [
+      "low neutrophils",
+      "low immune cells"
+    ],
+    "search_text": "Neutropenia | low neutrophils | low immune cells"
+  },
+  {
+    "pt_name": "Agranulocytosis",
+    "pt_code": "10001506",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Agranulocytosis",
+    "synonyms": [
+      "very low white cells",
+      "severe WBC deficiency"
+    ],
+    "search_text": "Agranulocytosis | very low white cells | severe WBC deficiency"
+  },
+  {
+    "pt_name": "Lymphopenia",
+    "pt_code": "10024878",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Lymphocyte disorders",
+    "synonyms": [
+      "low lymphocytes",
+      "low immune cells"
+    ],
+    "search_text": "Lymphopenia | low lymphocytes | low immune cells"
+  },
+  {
+    "pt_name": "Thrombocytosis",
+    "pt_code": "10043560",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Platelet disorders",
+    "synonyms": [
+      "high platelets",
+      "elevated platelet count"
+    ],
+    "search_text": "Thrombocytosis | high platelets | elevated platelet count"
+  },
+  {
+    "pt_name": "Polycythaemia",
+    "pt_code": "10035631",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Red cell disorders",
+    "synonyms": [
+      "high red blood cells",
+      "polycythemia"
+    ],
+    "search_text": "Polycythaemia | high red blood cells | polycythemia"
+  },
+  {
+    "pt_name": "Hypofibrinogenemia",
+    "pt_code": "10021047",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Clotting factor disorders",
+    "synonyms": [
+      "low fibrinogen",
+      "clotting protein deficiency"
+    ],
+    "search_text": "Hypofibrinogenemia | low fibrinogen | clotting protein deficiency"
+  },
+  {
+    "pt_name": "Disseminated intravascular coagulation",
+    "pt_code": "10013442",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Coagulation disorders",
+    "synonyms": [
+      "DIC",
+      "widespread clotting disorder"
+    ],
+    "search_text": "Disseminated intravascular coagulation | DIC | widespread clotting disorder"
+  },
+  {
+    "pt_name": "Haemophilia",
+    "pt_code": "10019006",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Clotting factor disorders",
+    "synonyms": [
+      "hemophilia",
+      "bleeding disorder"
+    ],
+    "search_text": "Haemophilia | hemophilia | bleeding disorder"
+  },
+  {
+    "pt_name": "Von Willebrand disease",
+    "pt_code": "10047476",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Clotting factor disorders",
+    "synonyms": [
+      "vWD",
+      "bleeding disorder"
+    ],
+    "search_text": "Von Willebrand disease | vWD | bleeding disorder"
+  },
+  {
+    "pt_name": "Leukaemia",
+    "pt_code": "10024378",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Myeloproliferative neoplasms",
+    "synonyms": [
+      "leukemia",
+      "blood cancer"
+    ],
+    "search_text": "Leukaemia | leukemia | blood cancer"
+  },
+  {
+    "pt_name": "Lymphoma",
+    "pt_code": "10024883",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Lymphoid neoplasms",
+    "synonyms": [
+      "lymph node cancer",
+      "cancer of immune cells"
+    ],
+    "search_text": "Lymphoma | lymph node cancer | cancer of immune cells"
+  },
+  {
+    "pt_name": "Multiple myeloma",
+    "pt_code": "10027903",
+    "soc_name": "Blood disorders",
+    "hlt_name": "Myeloproliferative neoplasms",
+    "synonyms": [
+      "plasma cell cancer",
+      "bone marrow cancer"
+    ],
+    "search_text": "Multiple myeloma | plasma cell cancer | bone marrow cancer"
+  },
+  {
+    "pt_name": "Hypoglycaemia",
+    "pt_code": "10020993",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Glucose disorders",
+    "synonyms": [
+      "low blood sugar",
+      "hypoglycemia"
+    ],
+    "search_text": "Hypoglycaemia | low blood sugar | hypoglycemia"
+  },
+  {
+    "pt_name": "Hyperglycaemia",
+    "pt_code": "10020635",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Glucose disorders",
+    "synonyms": [
+      "high blood sugar",
+      "hyperglycemia"
+    ],
+    "search_text": "Hyperglycaemia | high blood sugar | hyperglycemia"
+  },
+  {
+    "pt_name": "Diabetes mellitus",
+    "pt_code": "10012601",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Diabetes",
+    "synonyms": [
+      "diabetes",
+      "high blood sugar disease"
+    ],
+    "search_text": "Diabetes mellitus | diabetes | high blood sugar disease"
+  },
+  {
+    "pt_name": "Type 1 diabetes",
+    "pt_code": "10043882",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Diabetes",
+    "synonyms": [
+      "insulin-dependent diabetes",
+      "juvenile diabetes"
+    ],
+    "search_text": "Type 1 diabetes | insulin-dependent diabetes | juvenile diabetes"
+  },
+  {
+    "pt_name": "Type 2 diabetes",
+    "pt_code": "10043881",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Diabetes",
+    "synonyms": [
+      "adult-onset diabetes",
+      "non-insulin-dependent diabetes"
+    ],
+    "search_text": "Type 2 diabetes | adult-onset diabetes | non-insulin-dependent diabetes"
+  },
+  {
+    "pt_name": "Diabetic ketoacidosis",
+    "pt_code": "10012517",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Diabetes complications",
+    "synonyms": [
+      "DKA",
+      "dangerous diabetes condition"
+    ],
+    "search_text": "Diabetic ketoacidosis | DKA | dangerous diabetes condition"
+  },
+  {
+    "pt_name": "Hypokalaemia",
+    "pt_code": "10021015",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Electrolyte disorders",
+    "synonyms": [
+      "low potassium",
+      "hypokalemia"
+    ],
+    "search_text": "Hypokalaemia | low potassium | hypokalemia"
+  },
+  {
+    "pt_name": "Hyperkalaemia",
+    "pt_code": "10020647",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Electrolyte disorders",
+    "synonyms": [
+      "high potassium",
+      "hyperkalemia"
+    ],
+    "search_text": "Hyperkalaemia | high potassium | hyperkalemia"
+  },
+  {
+    "pt_name": "Hyponatraemia",
+    "pt_code": "10021036",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Electrolyte disorders",
+    "synonyms": [
+      "low sodium",
+      "hyponatremia"
+    ],
+    "search_text": "Hyponatraemia | low sodium | hyponatremia"
+  },
+  {
+    "pt_name": "Hypernatraemia",
+    "pt_code": "10020617",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Electrolyte disorders",
+    "synonyms": [
+      "high sodium",
+      "hypernatremia"
+    ],
+    "search_text": "Hypernatraemia | high sodium | hypernatremia"
+  },
+  {
+    "pt_name": "Hypocalcaemia",
+    "pt_code": "10020980",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "low calcium",
+      "hypocalcemia"
+    ],
+    "search_text": "Hypocalcaemia | low calcium | hypocalcemia"
+  },
+  {
+    "pt_name": "Hypercalcaemia",
+    "pt_code": "10020616",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "high calcium",
+      "hypercalcemia"
+    ],
+    "search_text": "Hypercalcaemia | high calcium | hypercalcemia"
+  },
+  {
+    "pt_name": "Hypomagnesaemia",
+    "pt_code": "10021025",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "low magnesium",
+      "hypomagnesemia"
+    ],
+    "search_text": "Hypomagnesaemia | low magnesium | hypomagnesemia"
+  },
+  {
+    "pt_name": "Hypermagnesaemia",
+    "pt_code": "10020629",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "high magnesium",
+      "hypermagnesemia"
+    ],
+    "search_text": "Hypermagnesaemia | high magnesium | hypermagnesemia"
+  },
+  {
+    "pt_name": "Hypophosphatemia",
+    "pt_code": "10021034",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "low phosphate",
+      "phosphate deficiency"
+    ],
+    "search_text": "Hypophosphatemia | low phosphate | phosphate deficiency"
+  },
+  {
+    "pt_name": "Hyperphosphatemia",
+    "pt_code": "10020615",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Mineral disorders",
+    "synonyms": [
+      "high phosphate",
+      "elevated phosphate"
+    ],
+    "search_text": "Hyperphosphatemia | high phosphate | elevated phosphate"
+  },
+  {
+    "pt_name": "Metabolic acidosis",
+    "pt_code": "10027496",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Acid-base disorders",
+    "synonyms": [
+      "blood too acidic",
+      "acidosis"
+    ],
+    "search_text": "Metabolic acidosis | blood too acidic | acidosis"
+  },
+  {
+    "pt_name": "Metabolic alkalosis",
+    "pt_code": "10027497",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Acid-base disorders",
+    "synonyms": [
+      "blood too alkaline",
+      "alkalosis"
+    ],
+    "search_text": "Metabolic alkalosis | blood too alkaline | alkalosis"
+  },
+  {
+    "pt_name": "Respiratory acidosis",
+    "pt_code": "10038693",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Acid-base disorders",
+    "synonyms": [
+      "CO2 buildup",
+      "too much acid from lungs"
+    ],
+    "search_text": "Respiratory acidosis | CO2 buildup | too much acid from lungs"
+  },
+  {
+    "pt_name": "Weight increased",
+    "pt_code": "10047899",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Weight disorders",
+    "synonyms": [
+      "weight gain",
+      "gained weight"
+    ],
+    "search_text": "Weight increased | weight gain | gained weight"
+  },
+  {
+    "pt_name": "Weight decreased",
+    "pt_code": "10047900",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Weight disorders",
+    "synonyms": [
+      "weight loss",
+      "lost weight"
+    ],
+    "search_text": "Weight decreased | weight loss | lost weight"
+  },
+  {
+    "pt_name": "Dehydration",
+    "pt_code": "10012174",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "not enough fluids",
+      "water loss"
+    ],
+    "search_text": "Dehydration | not enough fluids | water loss"
+  },
+  {
+    "pt_name": "Hyperhydration",
+    "pt_code": "10020619",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "too much fluid",
+      "water intoxication"
+    ],
+    "search_text": "Hyperhydration | too much fluid | water intoxication"
+  },
+  {
+    "pt_name": "Thyroid disorder",
+    "pt_code": "10043907",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Thyroid disorders",
+    "synonyms": [
+      "thyroid problem",
+      "overactive or underactive thyroid"
+    ],
+    "search_text": "Thyroid disorder | thyroid problem | overactive or underactive thyroid"
+  },
+  {
+    "pt_name": "Hypothyroidism",
+    "pt_code": "10021104",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Thyroid disorders",
+    "synonyms": [
+      "low thyroid",
+      "underactive thyroid"
+    ],
+    "search_text": "Hypothyroidism | low thyroid | underactive thyroid"
+  },
+  {
+    "pt_name": "Hyperthyroidism",
+    "pt_code": "10020682",
+    "soc_name": "Metabolic disorders",
+    "hlt_name": "Thyroid disorders",
+    "synonyms": [
+      "overactive thyroid",
+      "high thyroid"
+    ],
+    "search_text": "Hyperthyroidism | overactive thyroid | high thyroid"
+  },
+  {
+    "pt_name": "Hepatotoxicity",
+    "pt_code": "10019851",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver damage",
+    "synonyms": [
+      "liver toxicity",
+      "liver damage"
+    ],
+    "search_text": "Hepatotoxicity | liver toxicity | liver damage"
+  },
+  {
+    "pt_name": "Jaundice",
+    "pt_code": "10023126",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver findings",
+    "synonyms": [
+      "yellow skin",
+      "yellowing of eyes"
+    ],
+    "search_text": "Jaundice | yellow skin | yellowing of eyes"
+  },
+  {
+    "pt_name": "Hepatitis",
+    "pt_code": "10019717",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver diseases",
+    "synonyms": [
+      "liver inflammation",
+      "inflamed liver"
+    ],
+    "search_text": "Hepatitis | liver inflammation | inflamed liver"
+  },
+  {
+    "pt_name": "Acute hepatitis",
+    "pt_code": "10000879",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver diseases",
+    "synonyms": [
+      "sudden liver inflammation",
+      "acute liver disease"
+    ],
+    "search_text": "Acute hepatitis | sudden liver inflammation | acute liver disease"
+  },
+  {
+    "pt_name": "Cirrhosis hepatic",
+    "pt_code": "10009012",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver damage",
+    "synonyms": [
+      "liver scarring",
+      "liver cirrhosis"
+    ],
+    "search_text": "Cirrhosis hepatic | liver scarring | liver cirrhosis"
+  },
+  {
+    "pt_name": "Hepatic fibrosis",
+    "pt_code": "10019715",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver damage",
+    "synonyms": [
+      "liver scarring",
+      "liver scar tissue"
+    ],
+    "search_text": "Hepatic fibrosis | liver scarring | liver scar tissue"
+  },
+  {
+    "pt_name": "Steatosis hepatic",
+    "pt_code": "10041764",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver infiltration",
+    "synonyms": [
+      "fatty liver",
+      "liver fat accumulation"
+    ],
+    "search_text": "Steatosis hepatic | fatty liver | liver fat accumulation"
+  },
+  {
+    "pt_name": "Hepatic coma",
+    "pt_code": "10019687",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver dysfunction",
+    "synonyms": [
+      "hepatic encephalopathy",
+      "liver failure coma"
+    ],
+    "search_text": "Hepatic coma | hepatic encephalopathy | liver failure coma"
+  },
+  {
+    "pt_name": "Hepatic encephalopathy",
+    "pt_code": "10019713",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver dysfunction",
+    "synonyms": [
+      "brain damage from liver disease",
+      "liver-induced brain dysfunction"
+    ],
+    "search_text": "Hepatic encephalopathy | brain damage from liver disease | liver-induced brain dysfunction"
+  },
+  {
+    "pt_name": "Cholestasis",
+    "pt_code": "10008642",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Biliary disorders",
+    "synonyms": [
+      "bile backup",
+      "bile flow stopping"
+    ],
+    "search_text": "Cholestasis | bile backup | bile flow stopping"
+  },
+  {
+    "pt_name": "Intrahepatic cholestasis",
+    "pt_code": "10022513",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Biliary disorders",
+    "synonyms": [
+      "bile backup inside liver",
+      "bile in liver"
+    ],
+    "search_text": "Intrahepatic cholestasis | bile backup inside liver | bile in liver"
+  },
+  {
+    "pt_name": "Extrahepatic cholestasis",
+    "pt_code": "10015161",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Biliary disorders",
+    "synonyms": [
+      "bile duct blockage",
+      "blocked bile ducts"
+    ],
+    "search_text": "Extrahepatic cholestasis | bile duct blockage | blocked bile ducts"
+  },
+  {
+    "pt_name": "Alanine aminotransferase increased",
+    "pt_code": "10001551",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver enzymes",
+    "synonyms": [
+      "elevated ALT",
+      "high liver enzymes"
+    ],
+    "search_text": "Alanine aminotransferase increased | elevated ALT | high liver enzymes"
+  },
+  {
+    "pt_name": "Aspartate aminotransferase increased",
+    "pt_code": "10003481",
+    "soc_name": "Hepatobiliary disorders",
+    "hlt_name": "Liver enzymes",
+    "synonyms": [
+      "elevated AST",
+      "high liver enzymes"
+    ],
+    "search_text": "Aspartate aminotransferase increased | elevated AST | high liver enzymes"
+  },
+  {
+    "pt_name": "Renal failure acute",
+    "pt_code": "10038436",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Acute kidney failure",
+    "synonyms": [
+      "acute kidney failure",
+      "AKI"
+    ],
+    "search_text": "Renal failure acute | acute kidney failure | AKI"
+  },
+  {
+    "pt_name": "Renal failure chronic",
+    "pt_code": "10038437",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Chronic kidney failure",
+    "synonyms": [
+      "chronic kidney disease",
+      "CKD"
+    ],
+    "search_text": "Renal failure chronic | chronic kidney disease | CKD"
+  },
+  {
+    "pt_name": "Renal impairment",
+    "pt_code": "10038435",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney dysfunction",
+    "synonyms": [
+      "kidney problems",
+      "reduced kidney function"
+    ],
+    "search_text": "Renal impairment | kidney problems | reduced kidney function"
+  },
+  {
+    "pt_name": "Proteinuria",
+    "pt_code": "10036971",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "protein in urine",
+      "foamy urine"
+    ],
+    "search_text": "Proteinuria | protein in urine | foamy urine"
+  },
+  {
+    "pt_name": "Hematuria",
+    "pt_code": "10019109",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "blood in urine",
+      "bloody urine"
+    ],
+    "search_text": "Hematuria | blood in urine | bloody urine"
+  },
+  {
+    "pt_name": "Glycosuria",
+    "pt_code": "10018851",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "glucose in urine",
+      "sugar in urine"
+    ],
+    "search_text": "Glycosuria | glucose in urine | sugar in urine"
+  },
+  {
+    "pt_name": "Polyuria",
+    "pt_code": "10035629",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "frequent urination",
+      "excessive urine"
+    ],
+    "search_text": "Polyuria | frequent urination | excessive urine"
+  },
+  {
+    "pt_name": "Oliguria",
+    "pt_code": "10031141",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "decreased urine output",
+      "low urine output"
+    ],
+    "search_text": "Oliguria | decreased urine output | low urine output"
+  },
+  {
+    "pt_name": "Anuria",
+    "pt_code": "10002852",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function abnormalities",
+    "synonyms": [
+      "no urine output",
+      "stopped urinating"
+    ],
+    "search_text": "Anuria | no urine output | stopped urinating"
+  },
+  {
+    "pt_name": "Creatinine increased",
+    "pt_code": "10011368",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function tests",
+    "synonyms": [
+      "high creatinine",
+      "elevated kidney marker"
+    ],
+    "search_text": "Creatinine increased | high creatinine | elevated kidney marker"
+  },
+  {
+    "pt_name": "Blood urea nitrogen increased",
+    "pt_code": "10005947",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney function tests",
+    "synonyms": [
+      "high BUN",
+      "elevated waste product"
+    ],
+    "search_text": "Blood urea nitrogen increased | high BUN | elevated waste product"
+  },
+  {
+    "pt_name": "Glomerulonephritis",
+    "pt_code": "10018801",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney inflammation",
+    "synonyms": [
+      "kidney filter inflammation",
+      "inflamed kidney filters"
+    ],
+    "search_text": "Glomerulonephritis | kidney filter inflammation | inflamed kidney filters"
+  },
+  {
+    "pt_name": "Pyelonephritis",
+    "pt_code": "10037279",
+    "soc_name": "Renal disorders",
+    "hlt_name": "Kidney infection",
+    "synonyms": [
+      "kidney infection",
+      "infected kidneys"
+    ],
+    "search_text": "Pyelonephritis | kidney infection | infected kidneys"
+  },
+  {
+    "pt_name": "Fatigue",
+    "pt_code": "10016256",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "tiredness",
+      "exhaustion"
+    ],
+    "search_text": "Fatigue | tiredness | exhaustion"
+  },
+  {
+    "pt_name": "Asthenia",
+    "pt_code": "10003549",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "weakness",
+      "general weakness"
+    ],
+    "search_text": "Asthenia | weakness | general weakness"
+  },
+  {
+    "pt_name": "Malaise",
+    "pt_code": "10025482",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "feeling unwell",
+      "general unwellness"
+    ],
+    "search_text": "Malaise | feeling unwell | general unwellness"
+  },
+  {
+    "pt_name": "Pyrexia",
+    "pt_code": "10037660",
+    "soc_name": "General disorders",
+    "hlt_name": "Temperature disorders",
+    "synonyms": [
+      "fever",
+      "high temperature"
+    ],
+    "search_text": "Pyrexia | fever | high temperature"
+  },
+  {
+    "pt_name": "Chills",
+    "pt_code": "10008531",
+    "soc_name": "General disorders",
+    "hlt_name": "Temperature disorders",
+    "synonyms": [
+      "shivering",
+      "shaking from cold"
+    ],
+    "search_text": "Chills | shivering | shaking from cold"
+  },
+  {
+    "pt_name": "Pain",
+    "pt_code": "10033371",
+    "soc_name": "General disorders",
+    "hlt_name": "Pain",
+    "synonyms": [
+      "general pain",
+      "discomfort"
+    ],
+    "search_text": "Pain | general pain | discomfort"
+  },
+  {
+    "pt_name": "Chest pain",
+    "pt_code": "10008479",
+    "soc_name": "General disorders",
+    "hlt_name": "Chest symptoms",
+    "synonyms": [
+      "chest discomfort",
+      "chest tightness"
+    ],
+    "search_text": "Chest pain | chest discomfort | chest tightness"
+  },
+  {
+    "pt_name": "Injection site reaction",
+    "pt_code": "10022086",
+    "soc_name": "General disorders",
+    "hlt_name": "Administration site reactions",
+    "synonyms": [
+      "redness at injection site",
+      "swelling at injection site"
+    ],
+    "search_text": "Injection site reaction | redness at injection site | swelling at injection site"
+  },
+  {
+    "pt_name": "Edema",
+    "pt_code": "10030095",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "swelling",
+      "water retention"
+    ],
+    "search_text": "Edema | swelling | water retention"
+  },
+  {
+    "pt_name": "Peripheral edema",
+    "pt_code": "10034570",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "swollen legs",
+      "swollen ankles"
+    ],
+    "search_text": "Peripheral edema | swollen legs | swollen ankles"
+  },
+  {
+    "pt_name": "Localized edema",
+    "pt_code": "10024633",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "swelling in one area",
+      "localized swelling"
+    ],
+    "search_text": "Localized edema | swelling in one area | localized swelling"
+  },
+  {
+    "pt_name": "Influenza like illness",
+    "pt_code": "10022004",
+    "soc_name": "General disorders",
+    "hlt_name": "General conditions",
+    "synonyms": [
+      "flu-like symptoms",
+      "feeling like flu"
+    ],
+    "search_text": "Influenza like illness | flu-like symptoms | feeling like flu"
+  },
+  {
+    "pt_name": "Death",
+    "pt_code": "10011906",
+    "soc_name": "General disorders",
+    "hlt_name": "General events",
+    "synonyms": [
+      "patient died",
+      "fatal outcome"
+    ],
+    "search_text": "Death | patient died | fatal outcome"
+  },
+  {
+    "pt_name": "Adverse event",
+    "pt_code": "10001919",
+    "soc_name": "General disorders",
+    "hlt_name": "General events",
+    "synonyms": [
+      "unexpected event",
+      "unwanted effect"
+    ],
+    "search_text": "Adverse event | unexpected event | unwanted effect"
+  },
+  {
+    "pt_name": "Depression",
+    "pt_code": "10012378",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Mood disorders",
+    "synonyms": [
+      "feeling depressed",
+      "low mood"
+    ],
+    "search_text": "Depression | feeling depressed | low mood"
+  },
+  {
+    "pt_name": "Anxiety",
+    "pt_code": "10002855",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Anxiety disorders",
+    "synonyms": [
+      "feeling anxious",
+      "worry"
+    ],
+    "search_text": "Anxiety | feeling anxious | worry"
+  },
+  {
+    "pt_name": "Panic attack",
+    "pt_code": "10033633",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Anxiety disorders",
+    "synonyms": [
+      "panic",
+      "sudden fear"
+    ],
+    "search_text": "Panic attack | panic | sudden fear"
+  },
+  {
+    "pt_name": "Psychosis",
+    "pt_code": "10037094",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Psychotic disorders",
+    "synonyms": [
+      "break from reality",
+      "psychotic episode"
+    ],
+    "search_text": "Psychosis | break from reality | psychotic episode"
+  },
+  {
+    "pt_name": "Hallucination",
+    "pt_code": "10018993",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Hallucinations",
+    "synonyms": [
+      "seeing things",
+      "hearing things"
+    ],
+    "search_text": "Hallucination | seeing things | hearing things"
+  },
+  {
+    "pt_name": "Delusion",
+    "pt_code": "10012378",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Hallucinations",
+    "synonyms": [
+      "false belief",
+      "delusional thinking"
+    ],
+    "search_text": "Delusion | false belief | delusional thinking"
+  },
+  {
+    "pt_name": "Agitation",
+    "pt_code": "10001497",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Agitation",
+    "synonyms": [
+      "restlessness",
+      "feeling agitated"
+    ],
+    "search_text": "Agitation | restlessness | feeling agitated"
+  },
+  {
+    "pt_name": "Irritability",
+    "pt_code": "10022571",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Mood symptoms",
+    "synonyms": [
+      "easily annoyed",
+      "short temper"
+    ],
+    "search_text": "Irritability | easily annoyed | short temper"
+  },
+  {
+    "pt_name": "Suicidal ideation",
+    "pt_code": "10042458",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Suicidal behavior",
+    "synonyms": [
+      "thoughts of suicide",
+      "suicidal thoughts"
+    ],
+    "search_text": "Suicidal ideation | thoughts of suicide | suicidal thoughts"
+  },
+  {
+    "pt_name": "Suicidal behavior",
+    "pt_code": "10039898",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Suicidal behavior",
+    "synonyms": [
+      "suicide attempt",
+      "self-harm"
+    ],
+    "search_text": "Suicidal behavior | suicide attempt | self-harm"
+  },
+  {
+    "pt_name": "Self-injurious behavior",
+    "pt_code": "10039898",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Suicidal behavior",
+    "synonyms": [
+      "self-harm",
+      "self-injury"
+    ],
+    "search_text": "Self-injurious behavior | self-harm | self-injury"
+  },
+  {
+    "pt_name": "Confusional state",
+    "pt_code": "10010300",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Cognitive disorders",
+    "synonyms": [
+      "confusion",
+      "disorientation"
+    ],
+    "search_text": "Confusional state | confusion | disorientation"
+  },
+  {
+    "pt_name": "Delirium",
+    "pt_code": "10012378",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Cognitive disorders",
+    "synonyms": [
+      "acute confusion",
+      "acute mental state change"
+    ],
+    "search_text": "Delirium | acute confusion | acute mental state change"
+  },
+  {
+    "pt_name": "Dementia",
+    "pt_code": "10012401",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Cognitive disorders",
+    "synonyms": [
+      "memory loss",
+      "cognitive decline"
+    ],
+    "search_text": "Dementia | memory loss | cognitive decline"
+  },
+  {
+    "pt_name": "Amnesia",
+    "pt_code": "10002079",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Memory disorders",
+    "synonyms": [
+      "memory loss",
+      "loss of memory"
+    ],
+    "search_text": "Amnesia | memory loss | loss of memory"
+  },
+  {
+    "pt_name": "Personality change",
+    "pt_code": "10034620",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Behavioral disorders",
+    "synonyms": [
+      "change in personality",
+      "behavioral change"
+    ],
+    "search_text": "Personality change | change in personality | behavioral change"
+  },
+  {
+    "pt_name": "Mood swings",
+    "pt_code": "10027499",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Mood disorders",
+    "synonyms": [
+      "mood changes",
+      "unstable mood"
+    ],
+    "search_text": "Mood swings | mood changes | unstable mood"
+  },
+  {
+    "pt_name": "Manic behavior",
+    "pt_code": "10025484",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Mood disorders",
+    "synonyms": [
+      "manic episode",
+      "excessive energy and mood"
+    ],
+    "search_text": "Manic behavior | manic episode | excessive energy and mood"
+  },
+  {
+    "pt_name": "Bipolar disorder",
+    "pt_code": "10004942",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Mood disorders",
+    "synonyms": [
+      "manic depression",
+      "bipolar disorder"
+    ],
+    "search_text": "Bipolar disorder | manic depression | bipolar disorder"
+  },
+  {
+    "pt_name": "Obsessive compulsive disorder",
+    "pt_code": "10031135",
+    "soc_name": "Psychiatric disorders",
+    "hlt_name": "Anxiety disorders",
+    "synonyms": [
+      "OCD",
+      "obsessive thoughts and compulsions"
+    ],
+    "search_text": "Obsessive compulsive disorder | OCD | obsessive thoughts and compulsions"
+  },
+  {
+    "pt_name": "Infection",
+    "pt_code": "10021863",
+    "soc_name": "Infections",
+    "hlt_name": "Infections",
+    "synonyms": [
+      "infection",
+      "infected"
+    ],
+    "search_text": "Infection | infection | infected"
+  },
+  {
+    "pt_name": "Sepsis",
+    "pt_code": "10040047",
+    "soc_name": "Infections",
+    "hlt_name": "Systemic infections",
+    "synonyms": [
+      "blood poisoning",
+      "septicemia"
+    ],
+    "search_text": "Sepsis | blood poisoning | septicemia"
+  },
+  {
+    "pt_name": "Septic shock",
+    "pt_code": "10040048",
+    "soc_name": "Infections",
+    "hlt_name": "Systemic infections",
+    "synonyms": [
+      "severe sepsis",
+      "sepsis with shock"
+    ],
+    "search_text": "Septic shock | severe sepsis | sepsis with shock"
+  },
+  {
+    "pt_name": "Urinary tract infection",
+    "pt_code": "10046571",
+    "soc_name": "Infections",
+    "hlt_name": "Urinary infections",
+    "synonyms": [
+      "UTI",
+      "bladder infection"
+    ],
+    "search_text": "Urinary tract infection | UTI | bladder infection"
+  },
+  {
+    "pt_name": "Cystitis",
+    "pt_code": "10011702",
+    "soc_name": "Infections",
+    "hlt_name": "Urinary infections",
+    "synonyms": [
+      "bladder infection",
+      "painful urination"
+    ],
+    "search_text": "Cystitis | bladder infection | painful urination"
+  },
+  {
+    "pt_name": "Nasopharyngitis",
+    "pt_code": "10028810",
+    "soc_name": "Infections",
+    "hlt_name": "Upper respiratory infections",
+    "synonyms": [
+      "common cold",
+      "cold"
+    ],
+    "search_text": "Nasopharyngitis | common cold | cold"
+  },
+  {
+    "pt_name": "Pharyngitis",
+    "pt_code": "10034735",
+    "soc_name": "Infections",
+    "hlt_name": "Upper respiratory infections",
+    "synonyms": [
+      "sore throat",
+      "throat infection"
+    ],
+    "search_text": "Pharyngitis | sore throat | throat infection"
+  },
+  {
+    "pt_name": "Tonsillitis",
+    "pt_code": "10044120",
+    "soc_name": "Infections",
+    "hlt_name": "Upper respiratory infections",
+    "synonyms": [
+      "inflamed tonsils",
+      "swollen tonsils"
+    ],
+    "search_text": "Tonsillitis | inflamed tonsils | swollen tonsils"
+  },
+  {
+    "pt_name": "Sinusitis",
+    "pt_code": "10040736",
+    "soc_name": "Infections",
+    "hlt_name": "Upper respiratory infections",
+    "synonyms": [
+      "sinus infection",
+      "sinus inflammation"
+    ],
+    "search_text": "Sinusitis | sinus infection | sinus inflammation"
+  },
+  {
+    "pt_name": "Otitis media",
+    "pt_code": "10031239",
+    "soc_name": "Infections",
+    "hlt_name": "Ear infections",
+    "synonyms": [
+      "ear infection",
+      "middle ear infection"
+    ],
+    "search_text": "Otitis media | ear infection | middle ear infection"
+  },
+  {
+    "pt_name": "Otitis externa",
+    "pt_code": "10031238",
+    "soc_name": "Infections",
+    "hlt_name": "Ear infections",
+    "synonyms": [
+      "outer ear infection",
+      "swimmer's ear"
+    ],
+    "search_text": "Otitis externa | outer ear infection | swimmer's ear"
+  },
+  {
+    "pt_name": "Mastoiditis",
+    "pt_code": "10026345",
+    "soc_name": "Infections",
+    "hlt_name": "Ear infections",
+    "synonyms": [
+      "mastoid bone infection",
+      "bone behind ear infection"
+    ],
+    "search_text": "Mastoiditis | mastoid bone infection | bone behind ear infection"
+  },
+  {
+    "pt_name": "Labyrinthitis",
+    "pt_code": "10023576",
+    "soc_name": "Infections",
+    "hlt_name": "Ear infections",
+    "synonyms": [
+      "inner ear infection",
+      "balance system infection"
+    ],
+    "search_text": "Labyrinthitis | inner ear infection | balance system infection"
+  },
+  {
+    "pt_name": "Meningitis",
+    "pt_code": "10027393",
+    "soc_name": "Infections",
+    "hlt_name": "Central nervous system infections",
+    "synonyms": [
+      "brain lining infection",
+      "meningeal infection"
+    ],
+    "search_text": "Meningitis | brain lining infection | meningeal infection"
+  },
+  {
+    "pt_name": "Encephalitis",
+    "pt_code": "10014761",
+    "soc_name": "Infections",
+    "hlt_name": "Central nervous system infections",
+    "synonyms": [
+      "brain inflammation",
+      "inflamed brain"
+    ],
+    "search_text": "Encephalitis | brain inflammation | inflamed brain"
+  },
+  {
+    "pt_name": "Appendicitis",
+    "pt_code": "10002671",
+    "soc_name": "Infections",
+    "hlt_name": "Gastrointestinal infections",
+    "synonyms": [
+      "appendix infection",
+      "inflamed appendix"
+    ],
+    "search_text": "Appendicitis | appendix infection | inflamed appendix"
+  },
+  {
+    "pt_name": "Abscess",
+    "pt_code": "10000470",
+    "soc_name": "Infections",
+    "hlt_name": "Skin infections",
+    "synonyms": [
+      "pus-filled lump",
+      "boil"
+    ],
+    "search_text": "Abscess | pus-filled lump | boil"
+  },
+  {
+    "pt_name": "Cellulitis",
+    "pt_code": "10008299",
+    "soc_name": "Infections",
+    "hlt_name": "Skin infections",
+    "synonyms": [
+      "skin infection",
+      "skin inflammation infection"
+    ],
+    "search_text": "Cellulitis | skin infection | skin inflammation infection"
+  },
+  {
+    "pt_name": "Impetigo",
+    "pt_code": "10021534",
+    "soc_name": "Infections",
+    "hlt_name": "Skin infections",
+    "synonyms": [
+      "strep infection of skin",
+      "contagious skin infection"
+    ],
+    "search_text": "Impetigo | strep infection of skin | contagious skin infection"
+  },
+  {
+    "pt_name": "Fungal infection",
+    "pt_code": "10017012",
+    "soc_name": "Infections",
+    "hlt_name": "Fungal infections",
+    "synonyms": [
+      "yeast infection",
+      "fungus infection"
+    ],
+    "search_text": "Fungal infection | yeast infection | fungus infection"
+  },
+  {
+    "pt_name": "Anaphylaxis",
+    "pt_code": "10002198",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic reactions",
+    "synonyms": [
+      "anaphylactic reaction",
+      "severe allergy"
+    ],
+    "search_text": "Anaphylaxis | anaphylactic reaction | severe allergy"
+  },
+  {
+    "pt_name": "Hypersensitivity",
+    "pt_code": "10020751",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic reactions",
+    "synonyms": [
+      "allergic reaction",
+      "allergy"
+    ],
+    "search_text": "Hypersensitivity | allergic reaction | allergy"
+  },
+  {
+    "pt_name": "Angioedema",
+    "pt_code": "10002424",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic swelling",
+    "synonyms": [
+      "facial swelling",
+      "throat swelling"
+    ],
+    "search_text": "Angioedema | facial swelling | throat swelling"
+  },
+  {
+    "pt_name": "Urticaria",
+    "pt_code": "10046735",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic reactions",
+    "synonyms": [
+      "hives",
+      "skin welts"
+    ],
+    "search_text": "Urticaria | hives | skin welts"
+  },
+  {
+    "pt_name": "Drug rash with eosinophilia and systemic symptoms",
+    "pt_code": "10013786",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic reactions",
+    "synonyms": [
+      "DRESS syndrome",
+      "drug hypersensitivity"
+    ],
+    "search_text": "Drug rash with eosinophilia and systemic symptoms | DRESS syndrome | drug hypersensitivity"
+  },
+  {
+    "pt_name": "Serum sickness",
+    "pt_code": "10040082",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Allergic reactions",
+    "synonyms": [
+      "serum sickness-like reaction",
+      "immune reaction"
+    ],
+    "search_text": "Serum sickness | serum sickness-like reaction | immune reaction"
+  },
+  {
+    "pt_name": "Immune system disorder",
+    "pt_code": "10021863",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Immune disorders",
+    "synonyms": [
+      "immune system problem",
+      "immune dysfunction"
+    ],
+    "search_text": "Immune system disorder | immune system problem | immune dysfunction"
+  },
+  {
+    "pt_name": "Lymphadenopathy",
+    "pt_code": "10024878",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Lymphoid disorders",
+    "synonyms": [
+      "swollen lymph nodes",
+      "enlarged lymph glands"
+    ],
+    "search_text": "Lymphadenopathy | swollen lymph nodes | enlarged lymph glands"
+  },
+  {
+    "pt_name": "Splenomegaly",
+    "pt_code": "10041798",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Lymphoid disorders",
+    "synonyms": [
+      "enlarged spleen",
+      "swollen spleen"
+    ],
+    "search_text": "Splenomegaly | enlarged spleen | swollen spleen"
+  },
+  {
+    "pt_name": "Hepatosplenomegaly",
+    "pt_code": "10019715",
+    "soc_name": "Immune disorders",
+    "hlt_name": "Lymphoid disorders",
+    "synonyms": [
+      "enlarged liver and spleen",
+      "swollen liver and spleen"
+    ],
+    "search_text": "Hepatosplenomegaly | enlarged liver and spleen | swollen liver and spleen"
+  },
+  {
+    "pt_name": "Blurred vision",
+    "pt_code": "10005886",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Visual disorders",
+    "synonyms": [
+      "unclear vision",
+      "hazy vision"
+    ],
+    "search_text": "Blurred vision | unclear vision | hazy vision"
+  },
+  {
+    "pt_name": "Dry eye",
+    "pt_code": "10013774",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye surface disorders",
+    "synonyms": [
+      "dry eyes",
+      "gritty eyes"
+    ],
+    "search_text": "Dry eye | dry eyes | gritty eyes"
+  },
+  {
+    "pt_name": "Eye irritation",
+    "pt_code": "10015929",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye surface disorders",
+    "synonyms": [
+      "irritated eyes",
+      "red eyes"
+    ],
+    "search_text": "Eye irritation | irritated eyes | red eyes"
+  },
+  {
+    "pt_name": "Conjunctivitis",
+    "pt_code": "10010741",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye surface disorders",
+    "synonyms": [
+      "pink eye",
+      "red eye infection"
+    ],
+    "search_text": "Conjunctivitis | pink eye | red eye infection"
+  },
+  {
+    "pt_name": "Glaucoma",
+    "pt_code": "10018304",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Optic nerve disorders",
+    "synonyms": [
+      "high eye pressure",
+      "optic nerve damage"
+    ],
+    "search_text": "Glaucoma | high eye pressure | optic nerve damage"
+  },
+  {
+    "pt_name": "Cataract",
+    "pt_code": "10007784",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Lens disorders",
+    "synonyms": [
+      "cloudy lens",
+      "lens opacity"
+    ],
+    "search_text": "Cataract | cloudy lens | lens opacity"
+  },
+  {
+    "pt_name": "Retinal detachment",
+    "pt_code": "10038776",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Retinal disorders",
+    "synonyms": [
+      "detached retina",
+      "retina tearing off"
+    ],
+    "search_text": "Retinal detachment | detached retina | retina tearing off"
+  },
+  {
+    "pt_name": "Macular degeneration",
+    "pt_code": "10025408",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Retinal disorders",
+    "synonyms": [
+      "AMD",
+      "central vision loss"
+    ],
+    "search_text": "Macular degeneration | AMD | central vision loss"
+  },
+  {
+    "pt_name": "Diplopia",
+    "pt_code": "10013023",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Binocular disorders",
+    "synonyms": [
+      "double vision",
+      "seeing double"
+    ],
+    "search_text": "Diplopia | double vision | seeing double"
+  },
+  {
+    "pt_name": "Photophobia",
+    "pt_code": "10034960",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye sensory disorders",
+    "synonyms": [
+      "light sensitivity",
+      "eyes hurt in light"
+    ],
+    "search_text": "Photophobia | light sensitivity | eyes hurt in light"
+  },
+  {
+    "pt_name": "Lacrimation increased",
+    "pt_code": "10023644",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye surface disorders",
+    "synonyms": [
+      "watery eyes",
+      "tearing up"
+    ],
+    "search_text": "Lacrimation increased | watery eyes | tearing up"
+  },
+  {
+    "pt_name": "Visual field defect",
+    "pt_code": "10047531",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Visual disorders",
+    "synonyms": [
+      "blind spot",
+      "missing part of vision"
+    ],
+    "search_text": "Visual field defect | blind spot | missing part of vision"
+  },
+  {
+    "pt_name": "Optic neuritis",
+    "pt_code": "10031121",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Optic nerve disorders",
+    "synonyms": [
+      "optic nerve inflammation",
+      "eye nerve inflammation"
+    ],
+    "search_text": "Optic neuritis | optic nerve inflammation | eye nerve inflammation"
+  },
+  {
+    "pt_name": "Uveitis",
+    "pt_code": "10046851",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Uveal disorders",
+    "synonyms": [
+      "eye inflammation",
+      "inside eye inflammation"
+    ],
+    "search_text": "Uveitis | eye inflammation | inside eye inflammation"
+  },
+  {
+    "pt_name": "Iritis",
+    "pt_code": "10022616",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Uveal disorders",
+    "synonyms": [
+      "iris inflammation",
+      "colored part of eye inflamed"
+    ],
+    "search_text": "Iritis | iris inflammation | colored part of eye inflamed"
+  },
+  {
+    "pt_name": "Keratitis",
+    "pt_code": "10023332",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eye surface disorders",
+    "synonyms": [
+      "cornea inflammation",
+      "corneal infection"
+    ],
+    "search_text": "Keratitis | cornea inflammation | corneal infection"
+  },
+  {
+    "pt_name": "Blepharitis",
+    "pt_code": "10005148",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eyelid disorders",
+    "synonyms": [
+      "eyelid inflammation",
+      "crusty eyelids"
+    ],
+    "search_text": "Blepharitis | eyelid inflammation | crusty eyelids"
+  },
+  {
+    "pt_name": "Ptosis",
+    "pt_code": "10037185",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Eyelid disorders",
+    "synonyms": [
+      "drooping eyelid",
+      "eyelid droop"
+    ],
+    "search_text": "Ptosis | drooping eyelid | eyelid droop"
+  },
+  {
+    "pt_name": "Papilloedema",
+    "pt_code": "10033644",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Optic nerve disorders",
+    "synonyms": [
+      "swollen optic disc",
+      "raised eye pressure sign"
+    ],
+    "search_text": "Papilloedema | swollen optic disc | raised eye pressure sign"
+  },
+  {
+    "pt_name": "Scotoma",
+    "pt_code": "10039877",
+    "soc_name": "Eye disorders",
+    "hlt_name": "Visual disorders",
+    "synonyms": [
+      "blind spot in vision",
+      "area of decreased vision"
+    ],
+    "search_text": "Scotoma | blind spot in vision | area of decreased vision"
+  },
+  {
+    "pt_name": "Tinnitus",
+    "pt_code": "10043882",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Hearing disorders",
+    "synonyms": [
+      "ringing in ears",
+      "buzzing in ears"
+    ],
+    "search_text": "Tinnitus | ringing in ears | buzzing in ears"
+  },
+  {
+    "pt_name": "Hearing loss",
+    "pt_code": "10019245",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Hearing disorders",
+    "synonyms": [
+      "deafness",
+      "difficulty hearing"
+    ],
+    "search_text": "Hearing loss | deafness | difficulty hearing"
+  },
+  {
+    "pt_name": "Deafness",
+    "pt_code": "10011878",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Hearing disorders",
+    "synonyms": [
+      "complete hearing loss",
+      "can't hear"
+    ],
+    "search_text": "Deafness | complete hearing loss | can't hear"
+  },
+  {
+    "pt_name": "Hypoacusis",
+    "pt_code": "10020856",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Hearing disorders",
+    "synonyms": [
+      "reduced hearing",
+      "partial hearing loss"
+    ],
+    "search_text": "Hypoacusis | reduced hearing | partial hearing loss"
+  },
+  {
+    "pt_name": "Vertigo",
+    "pt_code": "10047340",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Vestibular disorders",
+    "synonyms": [
+      "room spinning",
+      "dizziness and balance problem"
+    ],
+    "search_text": "Vertigo | room spinning | dizziness and balance problem"
+  },
+  {
+    "pt_name": "Ear pain",
+    "pt_code": "10014020",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Ear symptoms",
+    "synonyms": [
+      "earache",
+      "painful ear"
+    ],
+    "search_text": "Ear pain | earache | painful ear"
+  },
+  {
+    "pt_name": "Ear discharge",
+    "pt_code": "10014012",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Ear symptoms",
+    "synonyms": [
+      "fluid from ear",
+      "drainage from ear"
+    ],
+    "search_text": "Ear discharge | fluid from ear | drainage from ear"
+  },
+  {
+    "pt_name": "Eustachian tube disorder",
+    "pt_code": "10015490",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Ear tube disorders",
+    "synonyms": [
+      "blocked ear tube",
+      "ear pressure problem"
+    ],
+    "search_text": "Eustachian tube disorder | blocked ear tube | ear pressure problem"
+  },
+  {
+    "pt_name": "Hyperacusis",
+    "pt_code": "10020679",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Hearing disorders",
+    "synonyms": [
+      "sound sensitivity",
+      "sensitive to noise"
+    ],
+    "search_text": "Hyperacusis | sound sensitivity | sensitive to noise"
+  },
+  {
+    "pt_name": "Otalgia",
+    "pt_code": "10031224",
+    "soc_name": "Ear disorders",
+    "hlt_name": "Ear symptoms",
+    "synonyms": [
+      "earache",
+      "ear pain"
+    ],
+    "search_text": "Otalgia | earache | ear pain"
+  },
+  {
+    "pt_name": "Erectile dysfunction",
+    "pt_code": "10061461",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Male reproductive disorders",
+    "synonyms": [
+      "impotence",
+      "ED"
+    ],
+    "search_text": "Erectile dysfunction | impotence | ED"
+  },
+  {
+    "pt_name": "Menstrual disorder",
+    "pt_code": "10027313",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Menstrual disorders",
+    "synonyms": [
+      "irregular periods",
+      "abnormal periods"
+    ],
+    "search_text": "Menstrual disorder | irregular periods | abnormal periods"
+  },
+  {
+    "pt_name": "Amenorrhoea",
+    "pt_code": "10001928",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Menstrual disorders",
+    "synonyms": [
+      "missed periods",
+      "no periods"
+    ],
+    "search_text": "Amenorrhoea | missed periods | no periods"
+  },
+  {
+    "pt_name": "Dysmenorrhoea",
+    "pt_code": "10013935",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Menstrual disorders",
+    "synonyms": [
+      "painful periods",
+      "menstrual cramps"
+    ],
+    "search_text": "Dysmenorrhoea | painful periods | menstrual cramps"
+  },
+  {
+    "pt_name": "Menorrhagia",
+    "pt_code": "10027282",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Menstrual disorders",
+    "synonyms": [
+      "heavy periods",
+      "heavy menstrual bleeding"
+    ],
+    "search_text": "Menorrhagia | heavy periods | heavy menstrual bleeding"
+  },
+  {
+    "pt_name": "Vaginal discharge",
+    "pt_code": "10046901",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Female reproductive disorders",
+    "synonyms": [
+      "abnormal vaginal discharge",
+      "unusual discharge"
+    ],
+    "search_text": "Vaginal discharge | abnormal vaginal discharge | unusual discharge"
+  },
+  {
+    "pt_name": "Vaginal haemorrhage",
+    "pt_code": "10046904",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Female reproductive disorders",
+    "synonyms": [
+      "vaginal bleeding",
+      "abnormal uterine bleeding"
+    ],
+    "search_text": "Vaginal haemorrhage | vaginal bleeding | abnormal uterine bleeding"
+  },
+  {
+    "pt_name": "Priapism",
+    "pt_code": "10036597",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Male reproductive disorders",
+    "synonyms": [
+      "painful prolonged erection",
+      "persistent erection"
+    ],
+    "search_text": "Priapism | painful prolonged erection | persistent erection"
+  },
+  {
+    "pt_name": "Decreased libido",
+    "pt_code": "10011912",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Sexual function disorders",
+    "synonyms": [
+      "low sex drive",
+      "reduced sexual desire"
+    ],
+    "search_text": "Decreased libido | low sex drive | reduced sexual desire"
+  },
+  {
+    "pt_name": "Foetal death",
+    "pt_code": "10055792",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Pregnancy complications",
+    "synonyms": [
+      "stillbirth",
+      "fetal death"
+    ],
+    "search_text": "Foetal death | stillbirth | fetal death"
+  },
+  {
+    "pt_name": "Abortion spontaneous",
+    "pt_code": "10000209",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Pregnancy complications",
+    "synonyms": [
+      "miscarriage",
+      "pregnancy loss"
+    ],
+    "search_text": "Abortion spontaneous | miscarriage | pregnancy loss"
+  },
+  {
+    "pt_name": "Premature labour",
+    "pt_code": "10036486",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Pregnancy complications",
+    "synonyms": [
+      "early labor",
+      "preterm labor"
+    ],
+    "search_text": "Premature labour | early labor | preterm labor"
+  },
+  {
+    "pt_name": "Polycystic ovaries",
+    "pt_code": "10036042",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Ovarian disorders",
+    "synonyms": [
+      "PCOS",
+      "ovarian cysts"
+    ],
+    "search_text": "Polycystic ovaries | PCOS | ovarian cysts"
+  },
+  {
+    "pt_name": "Endometriosis",
+    "pt_code": "10014803",
+    "soc_name": "Reproductive disorders",
+    "hlt_name": "Uterine disorders",
+    "synonyms": [
+      "uterine tissue outside uterus",
+      "endometrial tissue spreading"
+    ],
+    "search_text": "Endometriosis | uterine tissue outside uterus | endometrial tissue spreading"
+  },
+  {
+    "pt_name": "Alanine aminotransferase increased",
+    "pt_code": "10001551",
+    "soc_name": "Investigations",
+    "hlt_name": "Liver function tests",
+    "synonyms": [
+      "elevated ALT",
+      "high liver enzymes"
+    ],
+    "search_text": "Alanine aminotransferase increased | elevated ALT | high liver enzymes"
+  },
+  {
+    "pt_name": "Aspartate aminotransferase increased",
+    "pt_code": "10003481",
+    "soc_name": "Investigations",
+    "hlt_name": "Liver function tests",
+    "synonyms": [
+      "elevated AST",
+      "high liver enzyme"
+    ],
+    "search_text": "Aspartate aminotransferase increased | elevated AST | high liver enzyme"
+  },
+  {
+    "pt_name": "Creatinine increased",
+    "pt_code": "10011368",
+    "soc_name": "Investigations",
+    "hlt_name": "Kidney function tests",
+    "synonyms": [
+      "high creatinine",
+      "elevated kidney marker"
+    ],
+    "search_text": "Creatinine increased | high creatinine | elevated kidney marker"
+  },
+  {
+    "pt_name": "Blood glucose increased",
+    "pt_code": "10005558",
+    "soc_name": "Investigations",
+    "hlt_name": "Metabolic tests",
+    "synonyms": [
+      "high blood sugar",
+      "elevated glucose"
+    ],
+    "search_text": "Blood glucose increased | high blood sugar | elevated glucose"
+  },
+  {
+    "pt_name": "Haemoglobin decreased",
+    "pt_code": "10018884",
+    "soc_name": "Investigations",
+    "hlt_name": "Haematology tests",
+    "synonyms": [
+      "low haemoglobin",
+      "low Hgb"
+    ],
+    "search_text": "Haemoglobin decreased | low haemoglobin | low Hgb"
+  },
+  {
+    "pt_name": "White blood cell count decreased",
+    "pt_code": "10048300",
+    "soc_name": "Investigations",
+    "hlt_name": "Haematology tests",
+    "synonyms": [
+      "low WBC",
+      "low white cells"
+    ],
+    "search_text": "White blood cell count decreased | low WBC | low white cells"
+  },
+  {
+    "pt_name": "Platelet count decreased",
+    "pt_code": "10035528",
+    "soc_name": "Investigations",
+    "hlt_name": "Haematology tests",
+    "synonyms": [
+      "low platelets",
+      "reduced platelet count"
+    ],
+    "search_text": "Platelet count decreased | low platelets | reduced platelet count"
+  },
+  {
+    "pt_name": "Blood pressure increased",
+    "pt_code": "10005750",
+    "soc_name": "Investigations",
+    "hlt_name": "Cardiovascular tests",
+    "synonyms": [
+      "high BP",
+      "elevated blood pressure"
+    ],
+    "search_text": "Blood pressure increased | high BP | elevated blood pressure"
+  },
+  {
+    "pt_name": "Heart rate increased",
+    "pt_code": "10019303",
+    "soc_name": "Investigations",
+    "hlt_name": "Cardiovascular tests",
+    "synonyms": [
+      "fast heart rate measurement",
+      "elevated pulse"
+    ],
+    "search_text": "Heart rate increased | fast heart rate measurement | elevated pulse"
+  },
+  {
+    "pt_name": "International normalised ratio increased",
+    "pt_code": "10022595",
+    "soc_name": "Investigations",
+    "hlt_name": "Coagulation tests",
+    "synonyms": [
+      "elevated INR",
+      "increased clotting time"
+    ],
+    "search_text": "International normalised ratio increased | elevated INR | increased clotting time"
+  },
+  {
+    "pt_name": "Troponin increased",
+    "pt_code": "10058156",
+    "soc_name": "Investigations",
+    "hlt_name": "Cardiac biomarkers",
+    "synonyms": [
+      "elevated troponin",
+      "heart enzyme elevated"
+    ],
+    "search_text": "Troponin increased | elevated troponin | heart enzyme elevated"
+  },
+  {
+    "pt_name": "C-reactive protein increased",
+    "pt_code": "10007785",
+    "soc_name": "Investigations",
+    "hlt_name": "Inflammatory markers",
+    "synonyms": [
+      "elevated CRP",
+      "inflammation marker raised"
+    ],
+    "search_text": "C-reactive protein increased | elevated CRP | inflammation marker raised"
+  },
+  {
+    "pt_name": "Erythrocyte sedimentation rate increased",
+    "pt_code": "10015151",
+    "soc_name": "Investigations",
+    "hlt_name": "Inflammatory markers",
+    "synonyms": [
+      "elevated ESR",
+      "sedimentation rate high"
+    ],
+    "search_text": "Erythrocyte sedimentation rate increased | elevated ESR | sedimentation rate high"
+  },
+  {
+    "pt_name": "Alkaline phosphatase increased",
+    "pt_code": "10001680",
+    "soc_name": "Investigations",
+    "hlt_name": "Liver function tests",
+    "synonyms": [
+      "elevated ALP",
+      "high ALP level"
+    ],
+    "search_text": "Alkaline phosphatase increased | elevated ALP | high ALP level"
+  },
+  {
+    "pt_name": "Gamma-glutamyltransferase increased",
+    "pt_code": "10017693",
+    "soc_name": "Investigations",
+    "hlt_name": "Liver function tests",
+    "synonyms": [
+      "elevated GGT",
+      "high GGT"
+    ],
+    "search_text": "Gamma-glutamyltransferase increased | elevated GGT | high GGT"
+  },
+  {
+    "pt_name": "Bilirubin increased",
+    "pt_code": "10004787",
+    "soc_name": "Investigations",
+    "hlt_name": "Liver function tests",
+    "synonyms": [
+      "high bilirubin",
+      "raised bilirubin"
+    ],
+    "search_text": "Bilirubin increased | high bilirubin | raised bilirubin"
+  },
+  {
+    "pt_name": "Blood urea increased",
+    "pt_code": "10005842",
+    "soc_name": "Investigations",
+    "hlt_name": "Kidney function tests",
+    "synonyms": [
+      "elevated BUN",
+      "high urea"
+    ],
+    "search_text": "Blood urea increased | elevated BUN | high urea"
+  },
+  {
+    "pt_name": "Uric acid increased",
+    "pt_code": "10046519",
+    "soc_name": "Investigations",
+    "hlt_name": "Metabolic tests",
+    "synonyms": [
+      "high uric acid",
+      "elevated uric acid"
+    ],
+    "search_text": "Uric acid increased | high uric acid | elevated uric acid"
+  },
+  {
+    "pt_name": "Cholesterol increased",
+    "pt_code": "10008661",
+    "soc_name": "Investigations",
+    "hlt_name": "Metabolic tests",
+    "synonyms": [
+      "high cholesterol",
+      "elevated cholesterol"
+    ],
+    "search_text": "Cholesterol increased | high cholesterol | elevated cholesterol"
+  },
+  {
+    "pt_name": "Triglycerides increased",
+    "pt_code": "10044560",
+    "soc_name": "Investigations",
+    "hlt_name": "Metabolic tests",
+    "synonyms": [
+      "high triglycerides",
+      "elevated lipids"
+    ],
+    "search_text": "Triglycerides increased | high triglycerides | elevated lipids"
+  },
+  {
+    "pt_name": "Thyroid stimulating hormone decreased",
+    "pt_code": "10043893",
+    "soc_name": "Investigations",
+    "hlt_name": "Endocrine tests",
+    "synonyms": [
+      "low TSH",
+      "suppressed thyroid hormone"
+    ],
+    "search_text": "Thyroid stimulating hormone decreased | low TSH | suppressed thyroid hormone"
+  },
+  {
+    "pt_name": "Prostate specific antigen increased",
+    "pt_code": "10036760",
+    "soc_name": "Investigations",
+    "hlt_name": "Tumour markers",
+    "synonyms": [
+      "elevated PSA",
+      "high PSA"
+    ],
+    "search_text": "Prostate specific antigen increased | elevated PSA | high PSA"
+  },
+  {
+    "pt_name": "Oxygen saturation decreased",
+    "pt_code": "10033310",
+    "soc_name": "Investigations",
+    "hlt_name": "Respiratory tests",
+    "synonyms": [
+      "low O2 sat",
+      "low oxygen levels"
+    ],
+    "search_text": "Oxygen saturation decreased | low O2 sat | low oxygen levels"
+  },
+  {
+    "pt_name": "Fall",
+    "pt_code": "10016173",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Falls",
+    "synonyms": [
+      "patient fell",
+      "fell down"
+    ],
+    "search_text": "Fall | patient fell | fell down"
+  },
+  {
+    "pt_name": "Fracture",
+    "pt_code": "10017076",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Fractures",
+    "synonyms": [
+      "broken bone",
+      "bone break"
+    ],
+    "search_text": "Fracture | broken bone | bone break"
+  },
+  {
+    "pt_name": "Contusion",
+    "pt_code": "10010853",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Soft tissue injuries",
+    "synonyms": [
+      "bruise",
+      "bruising"
+    ],
+    "search_text": "Contusion | bruise | bruising"
+  },
+  {
+    "pt_name": "Overdose",
+    "pt_code": "10033307",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Toxic effects",
+    "synonyms": [
+      "too much medication",
+      "drug overdose"
+    ],
+    "search_text": "Overdose | too much medication | drug overdose"
+  },
+  {
+    "pt_name": "Medication error",
+    "pt_code": "10027199",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Drug errors",
+    "synonyms": [
+      "wrong dose",
+      "dosing error"
+    ],
+    "search_text": "Medication error | wrong dose | dosing error"
+  },
+  {
+    "pt_name": "Drug ineffective",
+    "pt_code": "10013922",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Therapeutic effects",
+    "synonyms": [
+      "drug not working",
+      "treatment failure"
+    ],
+    "search_text": "Drug ineffective | drug not working | treatment failure"
+  },
+  {
+    "pt_name": "Wound infection",
+    "pt_code": "10048031",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Post-procedural infections",
+    "synonyms": [
+      "infected wound",
+      "wound not healing"
+    ],
+    "search_text": "Wound infection | infected wound | wound not healing"
+  },
+  {
+    "pt_name": "Haematoma",
+    "pt_code": "10018987",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Vascular injuries",
+    "synonyms": [
+      "blood pooling",
+      "bruise under skin"
+    ],
+    "search_text": "Haematoma | blood pooling | bruise under skin"
+  },
+  {
+    "pt_name": "Seroma",
+    "pt_code": "10040152",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Fluid accumulation",
+    "synonyms": [
+      "fluid collection",
+      "pocket of fluid"
+    ],
+    "search_text": "Seroma | fluid collection | pocket of fluid"
+  },
+  {
+    "pt_name": "Laceration",
+    "pt_code": "10023673",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Skin injuries",
+    "synonyms": [
+      "cut",
+      "gash"
+    ],
+    "search_text": "Laceration | cut | gash"
+  },
+  {
+    "pt_name": "Post procedural pain",
+    "pt_code": "10036184",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Post-procedural complications",
+    "synonyms": [
+      "pain after procedure",
+      "post-operative pain"
+    ],
+    "search_text": "Post procedural pain | pain after procedure | post-operative pain"
+  },
+  {
+    "pt_name": "Post procedural haemorrhage",
+    "pt_code": "10036187",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Post-procedural complications",
+    "synonyms": [
+      "bleeding after surgery",
+      "post-op bleeding"
+    ],
+    "search_text": "Post procedural haemorrhage | bleeding after surgery | post-op bleeding"
+  },
+  {
+    "pt_name": "Post procedural infection",
+    "pt_code": "10059313",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Post-procedural infections",
+    "synonyms": [
+      "infection after surgery",
+      "surgical site infection"
+    ],
+    "search_text": "Post procedural infection | infection after surgery | surgical site infection"
+  },
+  {
+    "pt_name": "Anastomotic leak",
+    "pt_code": "10002331",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Post-procedural complications",
+    "synonyms": [
+      "bowel join leaking",
+      "surgical join failure"
+    ],
+    "search_text": "Anastomotic leak | bowel join leaking | surgical join failure"
+  },
+  {
+    "pt_name": "Device failure",
+    "pt_code": "10012263",
+    "soc_name": "Injury and procedural complications",
+    "hlt_name": "Medical device events",
+    "synonyms": [
+      "device malfunction",
+      "medical device not working"
+    ],
+    "search_text": "Device failure | device malfunction | medical device not working"
+  },
+  {
+    "pt_name": "Oedema peripheral",
+    "pt_code": "10030124",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid retention",
+    "synonyms": [
+      "swollen ankles",
+      "leg swelling"
+    ],
+    "search_text": "Oedema peripheral | swollen ankles | leg swelling"
+  },
+  {
+    "pt_name": "Hyperhidrosis",
+    "pt_code": "10020642",
+    "soc_name": "General disorders",
+    "hlt_name": "Sweating disorders",
+    "synonyms": [
+      "excessive sweating",
+      "profuse sweating"
+    ],
+    "search_text": "Hyperhidrosis | excessive sweating | profuse sweating"
+  },
+  {
+    "pt_name": "Night sweats",
+    "pt_code": "10029415",
+    "soc_name": "General disorders",
+    "hlt_name": "Sweating disorders",
+    "synonyms": [
+      "sweating at night",
+      "nocturnal sweating"
+    ],
+    "search_text": "Night sweats | sweating at night | nocturnal sweating"
+  },
+  {
+    "pt_name": "Hot flush",
+    "pt_code": "10020751",
+    "soc_name": "General disorders",
+    "hlt_name": "Temperature disorders",
+    "synonyms": [
+      "hot flash",
+      "sudden warmth"
+    ],
+    "search_text": "Hot flush | hot flash | sudden warmth"
+  },
+  {
+    "pt_name": "Flushing",
+    "pt_code": "10016825",
+    "soc_name": "General disorders",
+    "hlt_name": "Skin temperature disorders",
+    "synonyms": [
+      "face redness",
+      "face flushing"
+    ],
+    "search_text": "Flushing | face redness | face flushing"
+  },
+  {
+    "pt_name": "Thirst",
+    "pt_code": "10043458",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "excessive thirst",
+      "always thirsty"
+    ],
+    "search_text": "Thirst | excessive thirst | always thirsty"
+  },
+  {
+    "pt_name": "Appetite lost",
+    "pt_code": "10002953",
+    "soc_name": "General disorders",
+    "hlt_name": "Nutrition disorders",
+    "synonyms": [
+      "loss of appetite",
+      "no appetite"
+    ],
+    "search_text": "Appetite lost | loss of appetite | no appetite"
+  },
+  {
+    "pt_name": "Appetite increased",
+    "pt_code": "10002950",
+    "soc_name": "General disorders",
+    "hlt_name": "Nutrition disorders",
+    "synonyms": [
+      "excessive hunger",
+      "always hungry"
+    ],
+    "search_text": "Appetite increased | excessive hunger | always hungry"
+  },
+  {
+    "pt_name": "Pallor",
+    "pt_code": "10033546",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "paleness",
+      "pale skin"
+    ],
+    "search_text": "Pallor | paleness | pale skin"
+  },
+  {
+    "pt_name": "Cyanosis",
+    "pt_code": "10011703",
+    "soc_name": "General disorders",
+    "hlt_name": "Circulatory symptoms",
+    "synonyms": [
+      "blue skin",
+      "blue lips"
+    ],
+    "search_text": "Cyanosis | blue skin | blue lips"
+  },
+  {
+    "pt_name": "Face oedema",
+    "pt_code": "10016029",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "swollen face",
+      "facial swelling"
+    ],
+    "search_text": "Face oedema | swollen face | facial swelling"
+  },
+  {
+    "pt_name": "Generalised oedema",
+    "pt_code": "10018106",
+    "soc_name": "General disorders",
+    "hlt_name": "Fluid disorders",
+    "synonyms": [
+      "whole body swelling",
+      "widespread swelling"
+    ],
+    "search_text": "Generalised oedema | whole body swelling | widespread swelling"
+  },
+  {
+    "pt_name": "Non-cardiac chest pain",
+    "pt_code": "10029502",
+    "soc_name": "General disorders",
+    "hlt_name": "Chest disorders",
+    "synonyms": [
+      "chest pain not heart-related",
+      "musculoskeletal chest pain"
+    ],
+    "search_text": "Non-cardiac chest pain | chest pain not heart-related | musculoskeletal chest pain"
+  },
+  {
+    "pt_name": "Feeling cold",
+    "pt_code": "10016322",
+    "soc_name": "General disorders",
+    "hlt_name": "Temperature disorders",
+    "synonyms": [
+      "always cold",
+      "cold feeling"
+    ],
+    "search_text": "Feeling cold | always cold | cold feeling"
+  },
+  {
+    "pt_name": "Body temperature increased",
+    "pt_code": "10005741",
+    "soc_name": "General disorders",
+    "hlt_name": "Temperature disorders",
+    "synonyms": [
+      "elevated temperature",
+      "raised body temp"
+    ],
+    "search_text": "Body temperature increased | elevated temperature | raised body temp"
+  },
+  {
+    "pt_name": "Drug withdrawal syndrome",
+    "pt_code": "10013654",
+    "soc_name": "General disorders",
+    "hlt_name": "Drug effects",
+    "synonyms": [
+      "withdrawal symptoms",
+      "stopping drug symptoms"
+    ],
+    "search_text": "Drug withdrawal syndrome | withdrawal symptoms | stopping drug symptoms"
+  },
+  {
+    "pt_name": "Tolerance decreased",
+    "pt_code": "10044109",
+    "soc_name": "General disorders",
+    "hlt_name": "Drug effects",
+    "synonyms": [
+      "drug no longer working",
+      "decreased effect"
+    ],
+    "search_text": "Tolerance decreased | drug no longer working | decreased effect"
+  },
+  {
+    "pt_name": "Therapeutic response decreased",
+    "pt_code": "10043548",
+    "soc_name": "General disorders",
+    "hlt_name": "Drug effects",
+    "synonyms": [
+      "treatment less effective",
+      "drug wearing off"
+    ],
+    "search_text": "Therapeutic response decreased | treatment less effective | drug wearing off"
+  },
+  {
+    "pt_name": "Disease progression",
+    "pt_code": "10061818",
+    "soc_name": "General disorders",
+    "hlt_name": "Disease course",
+    "synonyms": [
+      "condition getting worse",
+      "worsening disease"
+    ],
+    "search_text": "Disease progression | condition getting worse | worsening disease"
+  },
+  {
+    "pt_name": "Sudden death",
+    "pt_code": "10042434",
+    "soc_name": "General disorders",
+    "hlt_name": "General events",
+    "synonyms": [
+      "unexpected death",
+      "sudden cardiac death"
+    ],
+    "search_text": "Sudden death | unexpected death | sudden cardiac death"
+  },
+  {
+    "pt_name": "Multi-organ failure",
+    "pt_code": "10028373",
+    "soc_name": "General disorders",
+    "hlt_name": "General events",
+    "synonyms": [
+      "multiple organ failure",
+      "organs failing"
+    ],
+    "search_text": "Multi-organ failure | multiple organ failure | organs failing"
+  },
+  {
+    "pt_name": "Pain in extremity",
+    "pt_code": "10033425",
+    "soc_name": "General disorders",
+    "hlt_name": "Pain",
+    "synonyms": [
+      "limb pain",
+      "arm or leg pain"
+    ],
+    "search_text": "Pain in extremity | limb pain | arm or leg pain"
+  },
+  {
+    "pt_name": "Abnormal gait",
+    "pt_code": "10000195",
+    "soc_name": "General disorders",
+    "hlt_name": "Gait disorders",
+    "synonyms": [
+      "walking abnormally",
+      "trouble walking"
+    ],
+    "search_text": "Abnormal gait | walking abnormally | trouble walking"
+  },
+  {
+    "pt_name": "Impaired healing",
+    "pt_code": "10021518",
+    "soc_name": "General disorders",
+    "hlt_name": "General events",
+    "synonyms": [
+      "wounds not healing",
+      "poor wound healing"
+    ],
+    "search_text": "Impaired healing | wounds not healing | poor wound healing"
+  },
+  {
+    "pt_name": "Anorexia",
+    "pt_code": "10002566",
+    "soc_name": "General disorders",
+    "hlt_name": "Nutrition disorders",
+    "synonyms": [
+      "not eating",
+      "refusing food"
+    ],
+    "search_text": "Anorexia | not eating | refusing food"
+  },
+  {
+    "pt_name": "Cachexia",
+    "pt_code": "10006906",
+    "soc_name": "General disorders",
+    "hlt_name": "Nutrition disorders",
+    "synonyms": [
+      "wasting",
+      "severe weight and muscle loss"
+    ],
+    "search_text": "Cachexia | wasting | severe weight and muscle loss"
+  },
+  {
+    "pt_name": "Drug tolerance decreased",
+    "pt_code": "10013661",
+    "soc_name": "General disorders",
+    "hlt_name": "Drug effects",
+    "synonyms": [
+      "lower tolerance",
+      "less able to handle drug"
+    ],
+    "search_text": "Drug tolerance decreased | lower tolerance | less able to handle drug"
+  },
+  {
+    "pt_name": "Condition aggravated",
+    "pt_code": "10010121",
+    "soc_name": "General disorders",
+    "hlt_name": "Disease course",
+    "synonyms": [
+      "condition worsened",
+      "symptom got worse"
+    ],
+    "search_text": "Condition aggravated | condition worsened | symptom got worse"
+  },
+  {
+    "pt_name": "Therapeutic product effect incomplete",
+    "pt_code": "10043543",
+    "soc_name": "General disorders",
+    "hlt_name": "Drug effects",
+    "synonyms": [
+      "partial response to treatment",
+      "drug partially working"
+    ],
+    "search_text": "Therapeutic product effect incomplete | partial response to treatment | drug partially working"
+  },
+  {
+    "pt_name": "Feeling abnormal",
+    "pt_code": "10016322",
+    "soc_name": "General disorders",
+    "hlt_name": "General symptoms",
+    "synonyms": [
+      "feeling strange",
+      "not feeling right"
+    ],
+    "search_text": "Feeling abnormal | feeling strange | not feeling right"
+  }
+]

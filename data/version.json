@@ -1,0 +1,6 @@
+{
+  "version": "1.2.0",
+  "meddra_terms_version": "1.0.0",
+  "released": "2026-04-20",
+  "notes": "Added multi-modal input (OCR, audio) and per-customer adaptive learning."
+}

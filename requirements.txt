@@ -1,0 +1,21 @@
+# VIGIL — Python dependencies (pinned for reproducibility)
+# Python 3.11+
+
+# Core pipeline
+chromadb==1.5.8
+pydantic==2.12.5
+requests==2.32.3
+numpy==1.26.3
+
+# Streamlit UI
+streamlit==1.56.0
+pandas==2.2.2
+plotly==5.24.1
+
+# Multi-modal input: OCR
+pytesseract==0.3.13
+Pillow==10.4.0
+pdf2image==1.17.0
+
+# Multi-modal input: audio transcription
+openai-whisper==20250625
