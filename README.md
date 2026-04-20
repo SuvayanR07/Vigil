@@ -17,6 +17,9 @@
 
 ---
 
+
+
+---
 ## Contents
 
 1. [The Problem](#1-the-problem)
@@ -34,11 +37,6 @@
 13. [Contributing](#13-contributing)
 14. [Links](#14-links)
 
----
-
-## 📹 Video Demo
-
-**[Insert 2-3 minute demo video here]** — See VIGIL in action: paste a narrative, extract drugs and reactions, map to MedDRA codes, view severity classification, and correct results to improve future predictions.
 
 ---
 
