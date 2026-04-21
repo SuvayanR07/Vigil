@@ -9,7 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.2.0-D91E63?style=flat-square)](data/version.json)
 
-**[GitHub →](https://github.com/SuvayanR07/Vigil)** &nbsp;|&nbsp; **[Portfolio →](https://suvayanrakshit.vercel.app)**
+**[GitHub →](https://github.com/SuvayanR07/)** &nbsp;|&nbsp; **[Portfolio →](https://suvayanrakshit.vercel.app)**
 
 
 
